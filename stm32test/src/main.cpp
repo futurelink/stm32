@@ -14,10 +14,10 @@ int main(void) {
 	Task *t3 = new LEDTask(GPIO_Pin_14, 321);
 	Task *t4 = new LEDTask(GPIO_Pin_15, 111);
 
-	app->attach(t1);
-	app->attach(t2);
-	app->attach(t3);
-	app->attach(t4);
+	app->attach(t1, "LED1");
+	app->attach(t2, "LED2");
+	app->attach(t3, "LED3");
+	app->attach(t4, "LED41");
 
 	app->start();
 

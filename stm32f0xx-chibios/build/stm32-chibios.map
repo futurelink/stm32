@@ -1,0 +1,1678 @@
+Archive member included because of file (symbol)
+
+build/lib/libchibios_stm32f0xx.a(chschd.o)
+                              /tmp/ccs4jQVz.o (rlist)
+build/lib/libchibios_stm32f0xx.a(chsys.o)
+                              /tmp/ccs4jQVz.o (chSysInit)
+build/lib/libchibios_stm32f0xx.a(chthreads.o)
+                              build/lib/libchibios_stm32f0xx.a(chsys.o) (_thread_init)
+build/lib/libchibios_stm32f0xx.a(chvt.o)
+                              build/lib/libchibios_stm32f0xx.a(chsys.o) (_vt_init)
+build/lib/libchibios_stm32f0xx.a(hal.o)
+                              /tmp/ccs4jQVz.o (halInit)
+build/lib/libchibios_stm32f0xx.a(i2c.o)
+                              build/lib/libchibios_stm32f0xx.a(hal.o) (i2cInit)
+build/lib/libchibios_stm32f0xx.a(serial.o)
+                              build/lib/libchibios_stm32f0xx.a(hal.o) (sdInit)
+build/lib/libchibios_stm32f0xx.a(hal_lld.o)
+                              build/lib/libchibios_stm32f0xx.a(hal.o) (hal_lld_init)
+build/lib/libchibios_stm32f0xx.a(i2c_lld.o)
+                              build/lib/libchibios_stm32f0xx.a(i2c.o) (i2c_lld_init)
+build/lib/libchibios_stm32f0xx.a(pal_lld.o)
+                              build/lib/libchibios_stm32f0xx.a(hal.o) (_pal_lld_init)
+build/lib/libchibios_stm32f0xx.a(serial_lld.o)
+                              build/lib/libchibios_stm32f0xx.a(serial.o) (sd_lld_init)
+build/lib/libchibios_stm32f0xx.a(stm32_dma.o)
+                              build/lib/libchibios_stm32f0xx.a(hal_lld.o) (dmaInit)
+build/lib/libchibios_stm32f0xx.a(board.o)
+                              build/lib/libchibios_stm32f0xx.a(hal.o) (boardInit)
+build/lib/libchibios_stm32f0xx.a(chcore.o)
+                              build/lib/libchibios_stm32f0xx.a(i2c_lld.o) (port_halt)
+build/lib/libchibios_stm32f0xx.a(chcore_v6m.o)
+                              build/lib/libchibios_stm32f0xx.a(i2c_lld.o) (_port_irq_epilogue)
+build/lib/libchibios_stm32f0xx.a(nvic.o)
+                              build/lib/libchibios_stm32f0xx.a(i2c_lld.o) (nvicEnableVector)
+build/lib/libchibios_stm32f0xx.a(chdynamic.o)
+                              build/lib/libchibios_stm32f0xx.a(chthreads.o) (chThdRelease)
+build/lib/libchibios_stm32f0xx.a(chevents.o)
+                              build/lib/libchibios_stm32f0xx.a(serial.o) (chEvtBroadcastFlagsI)
+build/lib/libchibios_stm32f0xx.a(chheap.o)
+                              build/lib/libchibios_stm32f0xx.a(chsys.o) (_heap_init)
+build/lib/libchibios_stm32f0xx.a(chlists.o)
+                              build/lib/libchibios_stm32f0xx.a(chschd.o) (fifo_remove)
+build/lib/libchibios_stm32f0xx.a(chmemcore.o)
+                              build/lib/libchibios_stm32f0xx.a(chsys.o) (_core_init)
+build/lib/libchibios_stm32f0xx.a(chmempools.o)
+                              build/lib/libchibios_stm32f0xx.a(chdynamic.o) (chPoolAlloc)
+build/lib/libchibios_stm32f0xx.a(chmtx.o)
+                              build/lib/libchibios_stm32f0xx.a(i2c.o) (chMtxInit)
+build/lib/libchibios_stm32f0xx.a(chqueues.o)
+                              build/lib/libchibios_stm32f0xx.a(serial.o) (chIQInit)
+build/lib/libchibios_stm32f0xx.a(chregistry.o)
+                              build/lib/libchibios_stm32f0xx.a(chsys.o) (ch_debug)
+/opt/gcc-arm-none-eabi-4_8-2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(_udivsi3.o)
+                              build/lib/libchibios_stm32f0xx.a(serial_lld.o) (__aeabi_uidiv)
+/opt/gcc-arm-none-eabi-4_8-2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(_dvmd_tls.o)
+                              /opt/gcc-arm-none-eabi-4_8-2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+
+Discarded input sections
+
+ .group         0x00000000        0x8 /tmp/ccs4jQVz.o
+ .group         0x00000000        0x8 /tmp/ccs4jQVz.o
+ .group         0x00000000        0x8 /tmp/ccs4jQVz.o
+ .group         0x00000000        0x8 /tmp/ccs4jQVz.o
+ .group         0x00000000        0x8 /tmp/ccs4jQVz.o
+ .group         0x00000000        0x8 /tmp/ccs4jQVz.o
+ .group         0x00000000        0x8 /tmp/ccs4jQVz.o
+ .group         0x00000000        0x8 /tmp/ccs4jQVz.o
+ .group         0x00000000        0x8 /tmp/ccs4jQVz.o
+ .group         0x00000000        0x8 /tmp/ccs4jQVz.o
+ .group         0x00000000        0x8 /tmp/ccs4jQVz.o
+ .group         0x00000000        0x8 /tmp/ccs4jQVz.o
+ .group         0x00000000        0x8 /tmp/ccs4jQVz.o
+ .group         0x00000000        0x8 /tmp/ccs4jQVz.o
+ .group         0x00000000        0x8 /tmp/ccs4jQVz.o
+ .group         0x00000000        0x8 /tmp/ccs4jQVz.o
+ .group         0x00000000        0x8 /tmp/ccs4jQVz.o
+ .group         0x00000000        0x8 /tmp/ccs4jQVz.o
+ .group         0x00000000        0x8 /tmp/ccs4jQVz.o
+ .group         0x00000000        0x8 /tmp/ccs4jQVz.o
+ .group         0x00000000        0x8 /tmp/ccs4jQVz.o
+ .group         0x00000000        0x8 /tmp/ccs4jQVz.o
+ .group         0x00000000        0x8 /tmp/ccs4jQVz.o
+ .group         0x00000000        0x8 /tmp/ccs4jQVz.o
+ .group         0x00000000        0x8 /tmp/ccs4jQVz.o
+ .group         0x00000000        0x8 /tmp/ccs4jQVz.o
+ .group         0x00000000        0x8 /tmp/ccs4jQVz.o
+ .group         0x00000000        0x8 /tmp/ccs4jQVz.o
+ .group         0x00000000        0x8 /tmp/ccs4jQVz.o
+ .group         0x00000000        0x8 /tmp/ccs4jQVz.o
+ .group         0x00000000        0x8 /tmp/ccs4jQVz.o
+ .group         0x00000000        0x8 /tmp/ccs4jQVz.o
+ .group         0x00000000        0x8 /tmp/ccs4jQVz.o
+ .group         0x00000000        0x8 /tmp/ccs4jQVz.o
+ .group         0x00000000        0x8 /tmp/ccs4jQVz.o
+ .group         0x00000000        0x8 /tmp/ccs4jQVz.o
+ .group         0x00000000        0x8 /tmp/ccs4jQVz.o
+ .group         0x00000000        0x8 /tmp/ccs4jQVz.o
+ .group         0x00000000        0x8 /tmp/ccs4jQVz.o
+ .group         0x00000000        0x8 /tmp/ccs4jQVz.o
+ .group         0x00000000        0x8 /tmp/ccs4jQVz.o
+ .group         0x00000000        0x8 /tmp/ccs4jQVz.o
+ .group         0x00000000        0x8 /tmp/ccs4jQVz.o
+ .group         0x00000000        0x8 /tmp/ccs4jQVz.o
+ .group         0x00000000        0x8 /tmp/ccs4jQVz.o
+ .group         0x00000000        0x8 /tmp/ccs4jQVz.o
+ .group         0x00000000        0x8 /tmp/ccs4jQVz.o
+ .group         0x00000000        0x8 /tmp/ccs4jQVz.o
+ .group         0x00000000        0x8 /tmp/ccs4jQVz.o
+ .group         0x00000000        0x8 /tmp/ccs4jQVz.o
+ .group         0x00000000        0x8 /tmp/ccs4jQVz.o
+ .group         0x00000000        0x8 /tmp/ccs4jQVz.o
+ .group         0x00000000        0x8 /tmp/ccs4jQVz.o
+ .group         0x00000000        0x8 /tmp/ccs4jQVz.o
+ .group         0x00000000        0x8 /tmp/ccs4jQVz.o
+ .group         0x00000000        0x8 /tmp/ccs4jQVz.o
+ .group         0x00000000        0x8 /tmp/ccs4jQVz.o
+ .group         0x00000000        0x8 /tmp/ccs4jQVz.o
+ .group         0x00000000        0x8 /tmp/ccs4jQVz.o
+ .text          0x00000000        0x0 /tmp/ccs4jQVz.o
+ .data          0x00000000        0x0 /tmp/ccs4jQVz.o
+ .bss           0x00000000        0x0 /tmp/ccs4jQVz.o
+ .group         0x00000000        0x8 /tmp/cchXpNmp.o
+ .group         0x00000000        0x8 /tmp/cchXpNmp.o
+ .group         0x00000000        0x8 /tmp/cchXpNmp.o
+ .group         0x00000000        0x8 /tmp/cchXpNmp.o
+ .group         0x00000000        0x8 /tmp/cchXpNmp.o
+ .group         0x00000000        0x8 /tmp/cchXpNmp.o
+ .text          0x00000000        0x0 /tmp/cchXpNmp.o
+ .data          0x00000000        0x0 /tmp/cchXpNmp.o
+ .bss           0x00000000        0x0 /tmp/cchXpNmp.o
+ .text.__early_init
+                0x00000000       0x10 /tmp/cchXpNmp.o
+ .debug_macro   0x00000000      0x802 /tmp/cchXpNmp.o
+ .debug_macro   0x00000000       0x52 /tmp/cchXpNmp.o
+ .debug_macro   0x00000000       0x16 /tmp/cchXpNmp.o
+ .debug_macro   0x00000000       0x35 /tmp/cchXpNmp.o
+ .debug_macro   0x00000000       0xa2 /tmp/cchXpNmp.o
+ .debug_macro   0x00000000      0x20e /tmp/cchXpNmp.o
+ .group         0x00000000        0x8 /tmp/cc8WG8hf.o
+ .group         0x00000000        0x8 /tmp/cc8WG8hf.o
+ .group         0x00000000        0x8 /tmp/cc8WG8hf.o
+ .group         0x00000000        0x8 /tmp/cc8WG8hf.o
+ .group         0x00000000        0x8 /tmp/cc8WG8hf.o
+ .group         0x00000000        0x8 /tmp/cc8WG8hf.o
+ .group         0x00000000        0x8 /tmp/cc8WG8hf.o
+ .group         0x00000000        0x8 /tmp/cc8WG8hf.o
+ .group         0x00000000        0x8 /tmp/cc8WG8hf.o
+ .group         0x00000000        0x8 /tmp/cc8WG8hf.o
+ .group         0x00000000        0x8 /tmp/cc8WG8hf.o
+ .group         0x00000000        0x8 /tmp/cc8WG8hf.o
+ .group         0x00000000        0x8 /tmp/cc8WG8hf.o
+ .group         0x00000000        0x8 /tmp/cc8WG8hf.o
+ .group         0x00000000        0x8 /tmp/cc8WG8hf.o
+ .group         0x00000000        0x8 /tmp/cc8WG8hf.o
+ .group         0x00000000        0x8 /tmp/cc8WG8hf.o
+ .group         0x00000000        0x8 /tmp/cc8WG8hf.o
+ .group         0x00000000        0x8 /tmp/cc8WG8hf.o
+ .group         0x00000000        0x8 /tmp/cc8WG8hf.o
+ .group         0x00000000        0x8 /tmp/cc8WG8hf.o
+ .group         0x00000000        0x8 /tmp/cc8WG8hf.o
+ .group         0x00000000        0x8 /tmp/cc8WG8hf.o
+ .group         0x00000000        0x8 /tmp/cc8WG8hf.o
+ .group         0x00000000        0x8 /tmp/cc8WG8hf.o
+ .group         0x00000000        0x8 /tmp/cc8WG8hf.o
+ .group         0x00000000        0x8 /tmp/cc8WG8hf.o
+ .group         0x00000000        0x8 /tmp/cc8WG8hf.o
+ .group         0x00000000        0x8 /tmp/cc8WG8hf.o
+ .group         0x00000000        0x8 /tmp/cc8WG8hf.o
+ .group         0x00000000        0x8 /tmp/cc8WG8hf.o
+ .group         0x00000000        0x8 /tmp/cc8WG8hf.o
+ .group         0x00000000        0x8 /tmp/cc8WG8hf.o
+ .group         0x00000000        0x8 /tmp/cc8WG8hf.o
+ .group         0x00000000        0x8 /tmp/cc8WG8hf.o
+ .group         0x00000000        0x8 /tmp/cc8WG8hf.o
+ .text          0x00000000        0x0 /tmp/cc8WG8hf.o
+ .data          0x00000000        0x0 /tmp/cc8WG8hf.o
+ .bss           0x00000000        0x0 /tmp/cc8WG8hf.o
+ .debug_macro   0x00000000      0x802 /tmp/cc8WG8hf.o
+ .debug_macro   0x00000000       0x40 /tmp/cc8WG8hf.o
+ .debug_macro   0x00000000      0x10f /tmp/cc8WG8hf.o
+ .debug_macro   0x00000000      0x166 /tmp/cc8WG8hf.o
+ .debug_macro   0x00000000       0x52 /tmp/cc8WG8hf.o
+ .debug_macro   0x00000000       0x16 /tmp/cc8WG8hf.o
+ .debug_macro   0x00000000       0x35 /tmp/cc8WG8hf.o
+ .debug_macro   0x00000000       0xa2 /tmp/cc8WG8hf.o
+ .debug_macro   0x00000000      0x20e /tmp/cc8WG8hf.o
+ .debug_macro   0x00000000       0x22 /tmp/cc8WG8hf.o
+ .debug_macro   0x00000000       0x28 /tmp/cc8WG8hf.o
+ .debug_macro   0x00000000       0x2e /tmp/cc8WG8hf.o
+ .debug_macro   0x00000000       0x22 /tmp/cc8WG8hf.o
+ .debug_macro   0x00000000       0x28 /tmp/cc8WG8hf.o
+ .debug_macro   0x00000000       0x35 /tmp/cc8WG8hf.o
+ .debug_macro   0x00000000       0xce /tmp/cc8WG8hf.o
+ .debug_macro   0x00000000      0x2e8 /tmp/cc8WG8hf.o
+ .debug_macro   0x00000000       0x12 /tmp/cc8WG8hf.o
+ .debug_macro   0x00000000       0x67 /tmp/cc8WG8hf.o
+ .debug_macro   0x00000000       0x4d /tmp/cc8WG8hf.o
+ .debug_macro   0x00000000       0x7b /tmp/cc8WG8hf.o
+ .debug_macro   0x00000000       0x28 /tmp/cc8WG8hf.o
+ .debug_macro   0x00000000       0x5a /tmp/cc8WG8hf.o
+ .debug_macro   0x00000000       0x1c /tmp/cc8WG8hf.o
+ .debug_macro   0x00000000       0x16 /tmp/cc8WG8hf.o
+ .debug_macro   0x00000000       0x59 /tmp/cc8WG8hf.o
+ .debug_macro   0x00000000       0x1c /tmp/cc8WG8hf.o
+ .debug_macro   0x00000000       0x31 /tmp/cc8WG8hf.o
+ .debug_macro   0x00000000       0x28 /tmp/cc8WG8hf.o
+ .debug_macro   0x00000000       0x22 /tmp/cc8WG8hf.o
+ .debug_macro   0x00000000       0xd5 /tmp/cc8WG8hf.o
+ .debug_macro   0x00000000       0x22 /tmp/cc8WG8hf.o
+ .debug_macro   0x00000000       0x9c /tmp/cc8WG8hf.o
+ .debug_macro   0x00000000       0x30 /tmp/cc8WG8hf.o
+ .debug_macro   0x00000000       0x44 /tmp/cc8WG8hf.o
+ .debug_macro   0x00000000       0x92 /tmp/cc8WG8hf.o
+ .text          0x00000000        0x0 build/lib/libchibios_stm32f0xx.a(chschd.o)
+ .data          0x00000000        0x0 build/lib/libchibios_stm32f0xx.a(chschd.o)
+ .bss           0x00000000        0x0 build/lib/libchibios_stm32f0xx.a(chschd.o)
+ .text.chSchRescheduleS
+                0x00000000       0x20 build/lib/libchibios_stm32f0xx.a(chschd.o)
+ .text          0x00000000        0x0 build/lib/libchibios_stm32f0xx.a(chsys.o)
+ .data          0x00000000        0x0 build/lib/libchibios_stm32f0xx.a(chsys.o)
+ .bss           0x00000000        0x0 build/lib/libchibios_stm32f0xx.a(chsys.o)
+ .text          0x00000000        0x0 build/lib/libchibios_stm32f0xx.a(chthreads.o)
+ .data          0x00000000        0x0 build/lib/libchibios_stm32f0xx.a(chthreads.o)
+ .bss           0x00000000        0x0 build/lib/libchibios_stm32f0xx.a(chthreads.o)
+ .text.chThdCreateI
+                0x00000000       0x50 build/lib/libchibios_stm32f0xx.a(chthreads.o)
+ .text.chThdSetPriority
+                0x00000000       0x30 build/lib/libchibios_stm32f0xx.a(chthreads.o)
+ .text.chThdResume
+                0x00000000       0x20 build/lib/libchibios_stm32f0xx.a(chthreads.o)
+ .text.chThdTerminate
+                0x00000000       0x10 build/lib/libchibios_stm32f0xx.a(chthreads.o)
+ .text.chThdSleepUntil
+                0x00000000       0x20 build/lib/libchibios_stm32f0xx.a(chthreads.o)
+ .text.chThdYield
+                0x00000000       0x20 build/lib/libchibios_stm32f0xx.a(chthreads.o)
+ .text.chThdWait
+                0x00000000       0x30 build/lib/libchibios_stm32f0xx.a(chthreads.o)
+ .text          0x00000000        0x0 build/lib/libchibios_stm32f0xx.a(chvt.o)
+ .data          0x00000000        0x0 build/lib/libchibios_stm32f0xx.a(chvt.o)
+ .bss           0x00000000        0x0 build/lib/libchibios_stm32f0xx.a(chvt.o)
+ .text          0x00000000        0x0 build/lib/libchibios_stm32f0xx.a(hal.o)
+ .data          0x00000000        0x0 build/lib/libchibios_stm32f0xx.a(hal.o)
+ .bss           0x00000000        0x0 build/lib/libchibios_stm32f0xx.a(hal.o)
+ .text          0x00000000        0x0 build/lib/libchibios_stm32f0xx.a(i2c.o)
+ .data          0x00000000        0x0 build/lib/libchibios_stm32f0xx.a(i2c.o)
+ .bss           0x00000000        0x0 build/lib/libchibios_stm32f0xx.a(i2c.o)
+ .text.i2cStart
+                0x00000000       0x20 build/lib/libchibios_stm32f0xx.a(i2c.o)
+ .text.i2cStop  0x00000000       0x20 build/lib/libchibios_stm32f0xx.a(i2c.o)
+ .text.i2cGetErrors
+                0x00000000       0x10 build/lib/libchibios_stm32f0xx.a(i2c.o)
+ .text.i2cMasterTransmitTimeout
+                0x00000000       0x40 build/lib/libchibios_stm32f0xx.a(i2c.o)
+ .text.i2cMasterReceiveTimeout
+                0x00000000       0x30 build/lib/libchibios_stm32f0xx.a(i2c.o)
+ .text.i2cAcquireBus
+                0x00000000       0x10 build/lib/libchibios_stm32f0xx.a(i2c.o)
+ .text.i2cReleaseBus
+                0x00000000       0x10 build/lib/libchibios_stm32f0xx.a(i2c.o)
+ .text          0x00000000        0x0 build/lib/libchibios_stm32f0xx.a(serial.o)
+ .data          0x00000000        0x0 build/lib/libchibios_stm32f0xx.a(serial.o)
+ .bss           0x00000000        0x0 build/lib/libchibios_stm32f0xx.a(serial.o)
+ .text.sdStop   0x00000000       0x30 build/lib/libchibios_stm32f0xx.a(serial.o)
+ .text.sdRequestDataI
+                0x00000000       0x20 build/lib/libchibios_stm32f0xx.a(serial.o)
+ .text          0x00000000        0x0 build/lib/libchibios_stm32f0xx.a(hal_lld.o)
+ .data          0x00000000        0x0 build/lib/libchibios_stm32f0xx.a(hal_lld.o)
+ .bss           0x00000000        0x0 build/lib/libchibios_stm32f0xx.a(hal_lld.o)
+ .text          0x00000000        0x0 build/lib/libchibios_stm32f0xx.a(i2c_lld.o)
+ .data          0x00000000        0x0 build/lib/libchibios_stm32f0xx.a(i2c_lld.o)
+ .bss           0x00000000        0x0 build/lib/libchibios_stm32f0xx.a(i2c_lld.o)
+ .text.i2c_lld_abort_operation
+                0x00000000       0x60 build/lib/libchibios_stm32f0xx.a(i2c_lld.o)
+ .text.i2c_lld_safety_timeout
+                0x00000000       0x30 build/lib/libchibios_stm32f0xx.a(i2c_lld.o)
+ .text.i2c_lld_serve_tx_end_irq
+                0x00000000       0x30 build/lib/libchibios_stm32f0xx.a(i2c_lld.o)
+ .text.i2c_lld_serve_rx_end_irq
+                0x00000000       0x50 build/lib/libchibios_stm32f0xx.a(i2c_lld.o)
+ .text.i2c_lld_start
+                0x00000000       0xb0 build/lib/libchibios_stm32f0xx.a(i2c_lld.o)
+ .text.i2c_lld_stop
+                0x00000000       0x40 build/lib/libchibios_stm32f0xx.a(i2c_lld.o)
+ .text.i2c_lld_master_receive_timeout
+                0x00000000      0x120 build/lib/libchibios_stm32f0xx.a(i2c_lld.o)
+ .text.i2c_lld_master_transmit_timeout
+                0x00000000      0x140 build/lib/libchibios_stm32f0xx.a(i2c_lld.o)
+ .text          0x00000000        0x0 build/lib/libchibios_stm32f0xx.a(pal_lld.o)
+ .data          0x00000000        0x0 build/lib/libchibios_stm32f0xx.a(pal_lld.o)
+ .bss           0x00000000        0x0 build/lib/libchibios_stm32f0xx.a(pal_lld.o)
+ .text          0x00000000        0x0 build/lib/libchibios_stm32f0xx.a(serial_lld.o)
+ .data          0x00000000        0x0 build/lib/libchibios_stm32f0xx.a(serial_lld.o)
+ .bss           0x00000000        0x0 build/lib/libchibios_stm32f0xx.a(serial_lld.o)
+ .text.sd_lld_stop
+                0x00000000       0x40 build/lib/libchibios_stm32f0xx.a(serial_lld.o)
+ .text          0x00000000        0x0 build/lib/libchibios_stm32f0xx.a(stm32_dma.o)
+ .data          0x00000000        0x0 build/lib/libchibios_stm32f0xx.a(stm32_dma.o)
+ .bss           0x00000000        0x0 build/lib/libchibios_stm32f0xx.a(stm32_dma.o)
+ .text.dmaStreamAllocate
+                0x00000000       0x80 build/lib/libchibios_stm32f0xx.a(stm32_dma.o)
+ .text.dmaStreamRelease
+                0x00000000       0x40 build/lib/libchibios_stm32f0xx.a(stm32_dma.o)
+ .text          0x00000000        0x0 build/lib/libchibios_stm32f0xx.a(board.o)
+ .data          0x00000000        0x0 build/lib/libchibios_stm32f0xx.a(board.o)
+ .bss           0x00000000        0x0 build/lib/libchibios_stm32f0xx.a(board.o)
+ .text          0x00000000        0x0 build/lib/libchibios_stm32f0xx.a(chcore.o)
+ .data          0x00000000        0x0 build/lib/libchibios_stm32f0xx.a(chcore.o)
+ .bss           0x00000000        0x0 build/lib/libchibios_stm32f0xx.a(chcore.o)
+ .text.port_halt
+                0x00000000       0x10 build/lib/libchibios_stm32f0xx.a(chcore.o)
+ .debug_info    0x00000000       0x92 build/lib/libchibios_stm32f0xx.a(chcore.o)
+ .debug_abbrev  0x00000000       0x42 build/lib/libchibios_stm32f0xx.a(chcore.o)
+ .debug_aranges
+                0x00000000       0x20 build/lib/libchibios_stm32f0xx.a(chcore.o)
+ .debug_ranges  0x00000000       0x10 build/lib/libchibios_stm32f0xx.a(chcore.o)
+ .debug_line    0x00000000       0x4a build/lib/libchibios_stm32f0xx.a(chcore.o)
+ .debug_str     0x00000000      0x1c4 build/lib/libchibios_stm32f0xx.a(chcore.o)
+ .comment       0x00000000       0x71 build/lib/libchibios_stm32f0xx.a(chcore.o)
+ .ARM.attributes
+                0x00000000       0x31 build/lib/libchibios_stm32f0xx.a(chcore.o)
+ .debug_frame   0x00000000       0x20 build/lib/libchibios_stm32f0xx.a(chcore.o)
+ .text          0x00000000        0x0 build/lib/libchibios_stm32f0xx.a(chcore_v6m.o)
+ .data          0x00000000        0x0 build/lib/libchibios_stm32f0xx.a(chcore_v6m.o)
+ .bss           0x00000000        0x0 build/lib/libchibios_stm32f0xx.a(chcore_v6m.o)
+ .text          0x00000000        0x0 build/lib/libchibios_stm32f0xx.a(nvic.o)
+ .data          0x00000000        0x0 build/lib/libchibios_stm32f0xx.a(nvic.o)
+ .bss           0x00000000        0x0 build/lib/libchibios_stm32f0xx.a(nvic.o)
+ .text.nvicDisableVector
+                0x00000000       0x40 build/lib/libchibios_stm32f0xx.a(nvic.o)
+ .text          0x00000000        0x0 build/lib/libchibios_stm32f0xx.a(chdynamic.o)
+ .data          0x00000000        0x0 build/lib/libchibios_stm32f0xx.a(chdynamic.o)
+ .bss           0x00000000        0x0 build/lib/libchibios_stm32f0xx.a(chdynamic.o)
+ .text.chThdAddRef
+                0x00000000       0x10 build/lib/libchibios_stm32f0xx.a(chdynamic.o)
+ .text.chThdRelease
+                0x00000000       0x50 build/lib/libchibios_stm32f0xx.a(chdynamic.o)
+ .text.chThdCreateFromHeap
+                0x00000000       0x40 build/lib/libchibios_stm32f0xx.a(chdynamic.o)
+ .text.chThdCreateFromMemoryPool
+                0x00000000       0x40 build/lib/libchibios_stm32f0xx.a(chdynamic.o)
+ .debug_info    0x00000000      0x77c build/lib/libchibios_stm32f0xx.a(chdynamic.o)
+ .debug_abbrev  0x00000000      0x1d7 build/lib/libchibios_stm32f0xx.a(chdynamic.o)
+ .debug_loc     0x00000000      0x28b build/lib/libchibios_stm32f0xx.a(chdynamic.o)
+ .debug_aranges
+                0x00000000       0x38 build/lib/libchibios_stm32f0xx.a(chdynamic.o)
+ .debug_ranges  0x00000000       0x28 build/lib/libchibios_stm32f0xx.a(chdynamic.o)
+ .debug_line    0x00000000      0x1f0 build/lib/libchibios_stm32f0xx.a(chdynamic.o)
+ .debug_str     0x00000000      0x488 build/lib/libchibios_stm32f0xx.a(chdynamic.o)
+ .comment       0x00000000       0x71 build/lib/libchibios_stm32f0xx.a(chdynamic.o)
+ .ARM.attributes
+                0x00000000       0x31 build/lib/libchibios_stm32f0xx.a(chdynamic.o)
+ .debug_frame   0x00000000       0x78 build/lib/libchibios_stm32f0xx.a(chdynamic.o)
+ .text          0x00000000        0x0 build/lib/libchibios_stm32f0xx.a(chevents.o)
+ .data          0x00000000        0x0 build/lib/libchibios_stm32f0xx.a(chevents.o)
+ .bss           0x00000000        0x0 build/lib/libchibios_stm32f0xx.a(chevents.o)
+ .text.chEvtRegisterMask
+                0x00000000       0x20 build/lib/libchibios_stm32f0xx.a(chevents.o)
+ .text.chEvtUnregister
+                0x00000000       0x20 build/lib/libchibios_stm32f0xx.a(chevents.o)
+ .text.chEvtGetAndClearEvents
+                0x00000000       0x20 build/lib/libchibios_stm32f0xx.a(chevents.o)
+ .text.chEvtAddEvents
+                0x00000000       0x20 build/lib/libchibios_stm32f0xx.a(chevents.o)
+ .text.chEvtGetAndClearFlags
+                0x00000000       0x10 build/lib/libchibios_stm32f0xx.a(chevents.o)
+ .text.chEvtSignal
+                0x00000000       0x10 build/lib/libchibios_stm32f0xx.a(chevents.o)
+ .text.chEvtBroadcastFlags
+                0x00000000       0x10 build/lib/libchibios_stm32f0xx.a(chevents.o)
+ .text.chEvtGetAndClearFlagsI
+                0x00000000       0x10 build/lib/libchibios_stm32f0xx.a(chevents.o)
+ .text.chEvtDispatch
+                0x00000000       0x40 build/lib/libchibios_stm32f0xx.a(chevents.o)
+ .text.chEvtWaitOneTimeout
+                0x00000000       0x40 build/lib/libchibios_stm32f0xx.a(chevents.o)
+ .text.chEvtWaitAnyTimeout
+                0x00000000       0x40 build/lib/libchibios_stm32f0xx.a(chevents.o)
+ .text.chEvtWaitAllTimeout
+                0x00000000       0x40 build/lib/libchibios_stm32f0xx.a(chevents.o)
+ .text          0x00000000        0x0 build/lib/libchibios_stm32f0xx.a(chheap.o)
+ .data          0x00000000        0x0 build/lib/libchibios_stm32f0xx.a(chheap.o)
+ .bss           0x00000000        0x0 build/lib/libchibios_stm32f0xx.a(chheap.o)
+ .text.chHeapInit
+                0x00000000       0x20 build/lib/libchibios_stm32f0xx.a(chheap.o)
+ .text.chHeapAlloc
+                0x00000000       0x80 build/lib/libchibios_stm32f0xx.a(chheap.o)
+ .text.chHeapFree
+                0x00000000       0x80 build/lib/libchibios_stm32f0xx.a(chheap.o)
+ .text.chHeapStatus
+                0x00000000       0x40 build/lib/libchibios_stm32f0xx.a(chheap.o)
+ .text          0x00000000        0x0 build/lib/libchibios_stm32f0xx.a(chlists.o)
+ .data          0x00000000        0x0 build/lib/libchibios_stm32f0xx.a(chlists.o)
+ .bss           0x00000000        0x0 build/lib/libchibios_stm32f0xx.a(chlists.o)
+ .text.prio_insert
+                0x00000000       0x20 build/lib/libchibios_stm32f0xx.a(chlists.o)
+ .text.lifo_remove
+                0x00000000       0x10 build/lib/libchibios_stm32f0xx.a(chlists.o)
+ .text.list_insert
+                0x00000000       0x10 build/lib/libchibios_stm32f0xx.a(chlists.o)
+ .text          0x00000000        0x0 build/lib/libchibios_stm32f0xx.a(chmemcore.o)
+ .data          0x00000000        0x0 build/lib/libchibios_stm32f0xx.a(chmemcore.o)
+ .bss           0x00000000        0x0 build/lib/libchibios_stm32f0xx.a(chmemcore.o)
+ .text.chCoreAllocI
+                0x00000000       0x30 build/lib/libchibios_stm32f0xx.a(chmemcore.o)
+ .text.chCoreStatus
+                0x00000000       0x20 build/lib/libchibios_stm32f0xx.a(chmemcore.o)
+ .text          0x00000000        0x0 build/lib/libchibios_stm32f0xx.a(chmempools.o)
+ .data          0x00000000        0x0 build/lib/libchibios_stm32f0xx.a(chmempools.o)
+ .bss           0x00000000        0x0 build/lib/libchibios_stm32f0xx.a(chmempools.o)
+ .text.chPoolInit
+                0x00000000       0x10 build/lib/libchibios_stm32f0xx.a(chmempools.o)
+ .text.chPoolLoadArray
+                0x00000000       0x20 build/lib/libchibios_stm32f0xx.a(chmempools.o)
+ .text.chPoolAllocI
+                0x00000000       0x20 build/lib/libchibios_stm32f0xx.a(chmempools.o)
+ .text.chPoolAlloc
+                0x00000000       0x20 build/lib/libchibios_stm32f0xx.a(chmempools.o)
+ .text.chPoolFreeI
+                0x00000000       0x10 build/lib/libchibios_stm32f0xx.a(chmempools.o)
+ .text.chPoolFree
+                0x00000000       0x10 build/lib/libchibios_stm32f0xx.a(chmempools.o)
+ .debug_info    0x00000000      0x353 build/lib/libchibios_stm32f0xx.a(chmempools.o)
+ .debug_abbrev  0x00000000      0x1d8 build/lib/libchibios_stm32f0xx.a(chmempools.o)
+ .debug_loc     0x00000000      0x1b8 build/lib/libchibios_stm32f0xx.a(chmempools.o)
+ .debug_aranges
+                0x00000000       0x48 build/lib/libchibios_stm32f0xx.a(chmempools.o)
+ .debug_ranges  0x00000000       0x50 build/lib/libchibios_stm32f0xx.a(chmempools.o)
+ .debug_line    0x00000000      0x196 build/lib/libchibios_stm32f0xx.a(chmempools.o)
+ .debug_str     0x00000000      0x274 build/lib/libchibios_stm32f0xx.a(chmempools.o)
+ .comment       0x00000000       0x71 build/lib/libchibios_stm32f0xx.a(chmempools.o)
+ .ARM.attributes
+                0x00000000       0x31 build/lib/libchibios_stm32f0xx.a(chmempools.o)
+ .debug_frame   0x00000000       0x80 build/lib/libchibios_stm32f0xx.a(chmempools.o)
+ .text          0x00000000        0x0 build/lib/libchibios_stm32f0xx.a(chmtx.o)
+ .data          0x00000000        0x0 build/lib/libchibios_stm32f0xx.a(chmtx.o)
+ .bss           0x00000000        0x0 build/lib/libchibios_stm32f0xx.a(chmtx.o)
+ .text.chMtxLockS
+                0x00000000       0x80 build/lib/libchibios_stm32f0xx.a(chmtx.o)
+ .text.chMtxLock
+                0x00000000       0x10 build/lib/libchibios_stm32f0xx.a(chmtx.o)
+ .text.chMtxTryLock
+                0x00000000       0x30 build/lib/libchibios_stm32f0xx.a(chmtx.o)
+ .text.chMtxTryLockS
+                0x00000000       0x20 build/lib/libchibios_stm32f0xx.a(chmtx.o)
+ .text.chMtxUnlock
+                0x00000000       0x60 build/lib/libchibios_stm32f0xx.a(chmtx.o)
+ .text.chMtxUnlockS
+                0x00000000       0x50 build/lib/libchibios_stm32f0xx.a(chmtx.o)
+ .text.chMtxUnlockAll
+                0x00000000       0x50 build/lib/libchibios_stm32f0xx.a(chmtx.o)
+ .text          0x00000000        0x0 build/lib/libchibios_stm32f0xx.a(chqueues.o)
+ .data          0x00000000        0x0 build/lib/libchibios_stm32f0xx.a(chqueues.o)
+ .bss           0x00000000        0x0 build/lib/libchibios_stm32f0xx.a(chqueues.o)
+ .text.chIQResetI
+                0x00000000       0x30 build/lib/libchibios_stm32f0xx.a(chqueues.o)
+ .text.chOQResetI
+                0x00000000       0x30 build/lib/libchibios_stm32f0xx.a(chqueues.o)
+ .text          0x00000000        0x0 build/lib/libchibios_stm32f0xx.a(chregistry.o)
+ .data          0x00000000        0x0 build/lib/libchibios_stm32f0xx.a(chregistry.o)
+ .bss           0x00000000        0x0 build/lib/libchibios_stm32f0xx.a(chregistry.o)
+ .text.chRegFirstThread
+                0x00000000       0x20 build/lib/libchibios_stm32f0xx.a(chregistry.o)
+ .text.chRegNextThread
+                0x00000000       0x30 build/lib/libchibios_stm32f0xx.a(chregistry.o)
+ .data          0x00000000        0x0 /opt/gcc-arm-none-eabi-4_8-2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(_udivsi3.o)
+ .bss           0x00000000        0x0 /opt/gcc-arm-none-eabi-4_8-2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(_udivsi3.o)
+ .data          0x00000000        0x0 /opt/gcc-arm-none-eabi-4_8-2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(_dvmd_tls.o)
+ .bss           0x00000000        0x0 /opt/gcc-arm-none-eabi-4_8-2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(_dvmd_tls.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+flash            0x08000000         0x00010000
+ram              0x20000000         0x00002000
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+                0x00000400                __main_stack_size__ = 0x400
+                0x00000400                __process_stack_size__ = 0x400
+                0x20000000                __ram_start__ = ORIGIN (ram)
+                0x00002000                __ram_size__ = 0x2000
+                0x20002000                __ram_end__ = (__ram_start__ + __ram_size__)
+                0x00000000                . = 0x0
+                0x00000000                _text = .
+
+startup         0x08000000       0xc0
+ *(vectors)
+ vectors        0x08000000       0xc0 /tmp/cc8WG8hf.o
+                0x08000000                _vectors
+
+constructors    0x080000c0        0x0
+                0x080000c0                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ *(.init_array)
+                0x080000c0                PROVIDE (__init_array_end, .)
+
+destructors     0x080000c0        0x0
+                0x080000c0                PROVIDE (__fini_array_start, .)
+ *(.fini_array)
+ *(SORT(.fini_array.*))
+                0x080000c0                PROVIDE (__fini_array_end, .)
+
+.text           0x080000c0     0x1678
+ *(.text.startup.*)
+ .text.startup.main
+                0x080000c0       0x80 /tmp/ccs4jQVz.o
+                0x080000c0                main
+ *(.text)
+ .text          0x08000140       0x9c /opt/gcc-arm-none-eabi-4_8-2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(_udivsi3.o)
+                0x08000140                __udivsi3
+                0x08000140                __aeabi_uidiv
+                0x080001c8                __aeabi_uidivmod
+ *fill*         0x080001dc        0x4 
+ .text          0x080001e0        0x4 /opt/gcc-arm-none-eabi-4_8-2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(_dvmd_tls.o)
+                0x080001e0                __aeabi_ldiv0
+                0x080001e0                __aeabi_idiv0
+ *(.text.*)
+ *fill*         0x080001e4        0xc 
+ .text.Thread2  0x080001f0       0x30 /tmp/ccs4jQVz.o
+ .text.Thread1  0x08000220       0x40 /tmp/ccs4jQVz.o
+ .text.__late_init
+                0x08000260       0x10 /tmp/cchXpNmp.o
+                0x08000260                __late_init
+ .text._default_exit
+                0x08000270       0x10 /tmp/cchXpNmp.o
+                0x08000270                _default_exit
+ .text.ResetHandler
+                0x08000280      0x110 /tmp/cchXpNmp.o
+                0x08000280                ResetHandler
+ .text._unhandled_exception
+                0x08000390       0x10 /tmp/cc8WG8hf.o
+                0x08000390                Vector58
+                0x08000390                Vector5C
+                0x08000390                Vector8C
+                0x08000390                Vector94
+                0x08000390                VectorA8
+                0x08000390                VectorB4
+                0x08000390                Vector74
+                0x08000390                UsageFaultVector
+                0x08000390                DebugMonitorVector
+                0x08000390                Vector40
+                0x08000390                VectorBC
+                0x08000390                PendSVVector
+                0x08000390                Vector54
+                0x08000390                Vector98
+                0x08000390                Vector24
+                0x08000390                Vector84
+                0x08000390                BusFaultVector
+                0x08000390                SVCallVector
+                0x08000390                HardFaultVector
+                0x08000390                MemManageVector
+                0x08000390                VectorA0
+                0x08000390                Vector7C
+                0x08000390                VectorB0
+                0x08000390                Vector90
+                0x08000390                Vector60
+                0x08000390                Vector1C
+                0x08000390                Vector48
+                0x08000390                Vector70
+                0x08000390                Vector4C
+                0x08000390                Vector80
+                0x08000390                Vector78
+                0x08000390                _unhandled_exception
+                0x08000390                Vector88
+                0x08000390                Vector50
+                0x08000390                Vector44
+                0x08000390                Vector28
+                0x08000390                VectorB8
+                0x08000390                Vector34
+                0x08000390                VectorA4
+                0x08000390                Vector20
+ .text.wakeup   0x080003a0       0x60 build/lib/libchibios_stm32f0xx.a(chschd.o)
+ .text._scheduler_init
+                0x08000400       0x20 build/lib/libchibios_stm32f0xx.a(chschd.o)
+                0x08000400                _scheduler_init
+ .text.chSchReadyI
+                0x08000420       0x20 build/lib/libchibios_stm32f0xx.a(chschd.o)
+                0x08000420                chSchReadyI
+ .text.chSchGoSleepS
+                0x08000440       0x30 build/lib/libchibios_stm32f0xx.a(chschd.o)
+                0x08000440                chSchGoSleepS
+ .text.chSchGoSleepTimeoutS
+                0x08000470       0x40 build/lib/libchibios_stm32f0xx.a(chschd.o)
+                0x08000470                chSchGoSleepTimeoutS
+ .text.chSchWakeupS
+                0x080004b0       0x50 build/lib/libchibios_stm32f0xx.a(chschd.o)
+                0x080004b0                chSchWakeupS
+ .text.chSchDoRescheduleBehind
+                0x08000500       0x40 build/lib/libchibios_stm32f0xx.a(chschd.o)
+                0x08000500                chSchDoRescheduleBehind
+ .text.chSchDoRescheduleAhead
+                0x08000540       0x40 build/lib/libchibios_stm32f0xx.a(chschd.o)
+                0x08000540                chSchDoRescheduleAhead
+ .text.chSchDoReschedule
+                0x08000580       0x20 build/lib/libchibios_stm32f0xx.a(chschd.o)
+                0x08000580                chSchDoReschedule
+ .text._idle_thread
+                0x080005a0       0x20 build/lib/libchibios_stm32f0xx.a(chsys.o)
+                0x080005a0                _idle_thread
+ .text.chSysInit
+                0x080005c0       0x80 build/lib/libchibios_stm32f0xx.a(chsys.o)
+                0x080005c0                chSysInit
+ .text.chSysTimerHandlerI
+                0x08000640       0x60 build/lib/libchibios_stm32f0xx.a(chsys.o)
+                0x08000640                chSysTimerHandlerI
+ .text._thread_init
+                0x080006a0       0x40 build/lib/libchibios_stm32f0xx.a(chthreads.o)
+                0x080006a0                _thread_init
+ .text.chThdCreateStatic
+                0x080006e0       0x60 build/lib/libchibios_stm32f0xx.a(chthreads.o)
+                0x080006e0                chThdCreateStatic
+ .text.chThdSleep
+                0x08000740       0x10 build/lib/libchibios_stm32f0xx.a(chthreads.o)
+                0x08000740                chThdSleep
+ .text.chThdExitS
+                0x08000750       0x40 build/lib/libchibios_stm32f0xx.a(chthreads.o)
+                0x08000750                chThdExitS
+ .text.chThdExit
+                0x08000790       0x10 build/lib/libchibios_stm32f0xx.a(chthreads.o)
+                0x08000790                chThdExit
+ .text._vt_init
+                0x080007a0       0x20 build/lib/libchibios_stm32f0xx.a(chvt.o)
+                0x080007a0                _vt_init
+ .text.chVTSetI
+                0x080007c0       0x40 build/lib/libchibios_stm32f0xx.a(chvt.o)
+                0x080007c0                chVTSetI
+ .text.chVTResetI
+                0x08000800       0x30 build/lib/libchibios_stm32f0xx.a(chvt.o)
+                0x08000800                chVTResetI
+ .text.halInit  0x08000830       0x20 build/lib/libchibios_stm32f0xx.a(hal.o)
+                0x08000830                halInit
+ .text.i2cInit  0x08000850       0x10 build/lib/libchibios_stm32f0xx.a(i2c.o)
+                0x08000850                i2cInit
+ .text.i2cObjectInit
+                0x08000860       0x20 build/lib/libchibios_stm32f0xx.a(i2c.o)
+                0x08000860                i2cObjectInit
+ .text.readt    0x08000880       0x10 build/lib/libchibios_stm32f0xx.a(serial.o)
+ .text.read     0x08000890       0x10 build/lib/libchibios_stm32f0xx.a(serial.o)
+ .text.writet   0x080008a0       0x10 build/lib/libchibios_stm32f0xx.a(serial.o)
+ .text.write    0x080008b0       0x10 build/lib/libchibios_stm32f0xx.a(serial.o)
+ .text.gett     0x080008c0       0x10 build/lib/libchibios_stm32f0xx.a(serial.o)
+ .text.get      0x080008d0       0x10 build/lib/libchibios_stm32f0xx.a(serial.o)
+ .text.putt     0x080008e0       0x10 build/lib/libchibios_stm32f0xx.a(serial.o)
+ .text.put      0x080008f0       0x10 build/lib/libchibios_stm32f0xx.a(serial.o)
+ .text.sdInit   0x08000900       0x10 build/lib/libchibios_stm32f0xx.a(serial.o)
+                0x08000900                sdInit
+ .text.sdObjectInit
+                0x08000910       0x40 build/lib/libchibios_stm32f0xx.a(serial.o)
+                0x08000910                sdObjectInit
+ .text.sdStart  0x08000950       0x20 build/lib/libchibios_stm32f0xx.a(serial.o)
+                0x08000950                sdStart
+ .text.sdIncomingDataI
+                0x08000970       0x40 build/lib/libchibios_stm32f0xx.a(serial.o)
+                0x08000970                sdIncomingDataI
+ .text.hal_lld_init
+                0x080009b0       0x90 build/lib/libchibios_stm32f0xx.a(hal_lld.o)
+                0x080009b0                hal_lld_init
+ .text.stm32_clock_init
+                0x08000a40       0x90 build/lib/libchibios_stm32f0xx.a(hal_lld.o)
+                0x08000a40                stm32_clock_init
+ .text.Vector9C
+                0x08000ad0      0x160 build/lib/libchibios_stm32f0xx.a(i2c_lld.o)
+                0x08000ad0                Vector9C
+ .text.i2c_lld_init
+                0x08000c30       0x30 build/lib/libchibios_stm32f0xx.a(i2c_lld.o)
+                0x08000c30                i2c_lld_init
+ .text._pal_lld_init
+                0x08000c60       0xc0 build/lib/libchibios_stm32f0xx.a(pal_lld.o)
+                0x08000c60                _pal_lld_init
+ .text._pal_lld_setgroupmode
+                0x08000d20       0xd0 build/lib/libchibios_stm32f0xx.a(pal_lld.o)
+                0x08000d20                _pal_lld_setgroupmode
+ .text.notify1  0x08000df0       0x10 build/lib/libchibios_stm32f0xx.a(serial_lld.o)
+ .text.VectorAC
+                0x08000e00       0xe0 build/lib/libchibios_stm32f0xx.a(serial_lld.o)
+                0x08000e00                VectorAC
+ .text.sd_lld_init
+                0x08000ee0       0x30 build/lib/libchibios_stm32f0xx.a(serial_lld.o)
+                0x08000ee0                sd_lld_init
+ .text.sd_lld_start
+                0x08000f10       0x70 build/lib/libchibios_stm32f0xx.a(serial_lld.o)
+                0x08000f10                sd_lld_start
+ .text.Vector64
+                0x08000f80       0x30 build/lib/libchibios_stm32f0xx.a(stm32_dma.o)
+                0x08000f80                Vector64
+ .text.Vector68
+                0x08000fb0       0x50 build/lib/libchibios_stm32f0xx.a(stm32_dma.o)
+                0x08000fb0                Vector68
+ .text.Vector6C
+                0x08001000       0x50 build/lib/libchibios_stm32f0xx.a(stm32_dma.o)
+                0x08001000                Vector6C
+ .text.dmaInit  0x08001050       0x50 build/lib/libchibios_stm32f0xx.a(stm32_dma.o)
+                0x08001050                dmaInit
+ .text.__early_init
+                0x080010a0       0x10 build/lib/libchibios_stm32f0xx.a(board.o)
+                0x080010a0                __early_init
+ .text.boardInit
+                0x080010b0       0x10 build/lib/libchibios_stm32f0xx.a(board.o)
+                0x080010b0                boardInit
+ .text._port_switch_from_isr
+                0x080010c0       0x20 build/lib/libchibios_stm32f0xx.a(chcore_v6m.o)
+                0x080010c0                _port_switch_from_isr
+ .text.NMIVector
+                0x080010e0       0x10 build/lib/libchibios_stm32f0xx.a(chcore_v6m.o)
+                0x080010e0                NMIVector
+ .text._port_irq_epilogue
+                0x080010f0       0x60 build/lib/libchibios_stm32f0xx.a(chcore_v6m.o)
+                0x080010f0                _port_irq_epilogue
+ .text.SysTickVector
+                0x08001150       0x20 build/lib/libchibios_stm32f0xx.a(chcore_v6m.o)
+                0x08001150                SysTickVector
+ .text._port_switch
+                0x08001170       0x20 build/lib/libchibios_stm32f0xx.a(chcore_v6m.o)
+                0x08001170                _port_switch
+ .text._port_thread_start
+                0x08001190       0x10 build/lib/libchibios_stm32f0xx.a(chcore_v6m.o)
+                0x08001190                _port_thread_start
+ .text.nvicEnableVector
+                0x080011a0       0x50 build/lib/libchibios_stm32f0xx.a(nvic.o)
+                0x080011a0                nvicEnableVector
+ .text.nvicSetSystemHandlerPriority
+                0x080011f0       0x30 build/lib/libchibios_stm32f0xx.a(nvic.o)
+                0x080011f0                nvicSetSystemHandlerPriority
+ .text.chEvtSignalI
+                0x08001220       0x40 build/lib/libchibios_stm32f0xx.a(chevents.o)
+                0x08001220                chEvtSignalI
+ .text.chEvtBroadcastFlagsI
+                0x08001260       0x30 build/lib/libchibios_stm32f0xx.a(chevents.o)
+                0x08001260                chEvtBroadcastFlagsI
+ .text._heap_init
+                0x08001290       0x20 build/lib/libchibios_stm32f0xx.a(chheap.o)
+                0x08001290                _heap_init
+ .text.queue_insert
+                0x080012b0       0x10 build/lib/libchibios_stm32f0xx.a(chlists.o)
+                0x080012b0                queue_insert
+ .text.fifo_remove
+                0x080012c0       0x10 build/lib/libchibios_stm32f0xx.a(chlists.o)
+                0x080012c0                fifo_remove
+ .text.dequeue  0x080012d0       0x10 build/lib/libchibios_stm32f0xx.a(chlists.o)
+                0x080012d0                dequeue
+ .text.list_remove
+                0x080012e0       0x10 build/lib/libchibios_stm32f0xx.a(chlists.o)
+                0x080012e0                list_remove
+ .text._core_init
+                0x080012f0       0x30 build/lib/libchibios_stm32f0xx.a(chmemcore.o)
+                0x080012f0                _core_init
+ .text.chCoreAlloc
+                0x08001320       0x30 build/lib/libchibios_stm32f0xx.a(chmemcore.o)
+                0x08001320                chCoreAlloc
+ .text.chMtxInit
+                0x08001350       0x10 build/lib/libchibios_stm32f0xx.a(chmtx.o)
+                0x08001350                chMtxInit
+ .text.qwait    0x08001360       0x30 build/lib/libchibios_stm32f0xx.a(chqueues.o)
+ .text.chIQInit
+                0x08001390       0x20 build/lib/libchibios_stm32f0xx.a(chqueues.o)
+                0x08001390                chIQInit
+ .text.chIQPutI
+                0x080013b0       0x50 build/lib/libchibios_stm32f0xx.a(chqueues.o)
+                0x080013b0                chIQPutI
+ .text.chIQGetTimeout
+                0x08001400       0x40 build/lib/libchibios_stm32f0xx.a(chqueues.o)
+                0x08001400                chIQGetTimeout
+ .text.chIQReadTimeout
+                0x08001440       0x70 build/lib/libchibios_stm32f0xx.a(chqueues.o)
+                0x08001440                chIQReadTimeout
+ .text.chOQInit
+                0x080014b0       0x20 build/lib/libchibios_stm32f0xx.a(chqueues.o)
+                0x080014b0                chOQInit
+ .text.chOQPutTimeout
+                0x080014d0       0x50 build/lib/libchibios_stm32f0xx.a(chqueues.o)
+                0x080014d0                chOQPutTimeout
+ .text.chOQGetI
+                0x08001520       0x50 build/lib/libchibios_stm32f0xx.a(chqueues.o)
+                0x08001520                chOQGetI
+ .text.chOQWriteTimeout
+                0x08001570       0x80 build/lib/libchibios_stm32f0xx.a(chqueues.o)
+                0x08001570                chOQWriteTimeout
+ *(.rodata)
+ *(.rodata.*)
+ .rodata.str1.4
+                0x080015f0       0x15 /tmp/ccs4jQVz.o
+                                 0x18 (size before relaxing)
+ *fill*         0x08001605        0xb 
+ .rodata.str1.4
+                0x08001610        0x8 build/lib/libchibios_stm32f0xx.a(chsys.o)
+ *fill*         0x08001618        0x8 
+ .rodata.vmt    0x08001620       0x20 build/lib/libchibios_stm32f0xx.a(serial.o)
+ .rodata.default_config
+                0x08001640       0x10 build/lib/libchibios_stm32f0xx.a(serial_lld.o)
+ .rodata._stm32_dma_streams
+                0x08001650       0x3c build/lib/libchibios_stm32f0xx.a(stm32_dma.o)
+                0x08001650                _stm32_dma_streams
+ *fill*         0x0800168c        0x4 
+ .rodata.pal_default_config
+                0x08001690       0x8c build/lib/libchibios_stm32f0xx.a(board.o)
+                0x08001690                pal_default_config
+ *fill*         0x0800171c        0x4 
+ .rodata.ch_debug
+                0x08001720       0x18 build/lib/libchibios_stm32f0xx.a(chregistry.o)
+                0x08001720                ch_debug
+ *(.glue_7t)
+ .glue_7t       0x00000000        0x0 linker stubs
+ *(.glue_7)
+ .glue_7        0x00000000        0x0 linker stubs
+ *(.gcc*)
+
+.vfp11_veneer   0x08001738        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x08001738        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x08001738        0x0
+ .iplt          0x00000000        0x0 /tmp/ccs4jQVz.o
+
+.rel.dyn        0x08001738        0x0
+ .rel.iplt      0x00000000        0x0 /tmp/ccs4jQVz.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+
+.ARM.exidx      0x08001738        0x0
+                0x08001738                PROVIDE (__exidx_start, .)
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x08001738                PROVIDE (__exidx_end, .)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame
+ *(.eh_frame)
+
+.textalign      0x08001738        0x0
+                0x08001738                . = ALIGN (0x8)
+                0x08001738                . = ALIGN (0x4)
+                0x08001738                _etext = .
+                0x08001738                _textdata = _etext
+
+.stacks         0x20000000      0x800
+                0x20000000                . = ALIGN (0x8)
+                0x20000000                __main_stack_base__ = .
+                0x20000400                . = (. + __main_stack_size__)
+ *fill*         0x20000000      0x400 
+                0x20000400                . = ALIGN (0x8)
+                0x20000400                __main_stack_end__ = .
+                0x20000400                __process_stack_base__ = .
+                0x20000400                __main_thread_stack_base__ = .
+                0x20000800                . = (. + __process_stack_size__)
+ *fill*         0x20000400      0x400 
+                0x20000800                . = ALIGN (0x8)
+                0x20000800                __process_stack_end__ = .
+                0x20000800                __main_thread_stack_end__ = .
+
+.data           0x20000800        0x0 load address 0x08001738
+                0x20000800                . = ALIGN (0x4)
+                0x20000800                PROVIDE (_data, .)
+ *(.data)
+                0x20000800                . = ALIGN (0x4)
+ *(.data.*)
+                0x20000800                . = ALIGN (0x4)
+ *(.ramtext)
+                0x20000800                . = ALIGN (0x4)
+                0x20000800                PROVIDE (_edata, .)
+
+.igot.plt       0x20000800        0x0 load address 0x08001738
+ .igot.plt      0x00000000        0x0 /tmp/ccs4jQVz.o
+
+.bss            0x20000800      0x500 load address 0x08001738
+                0x20000800                . = ALIGN (0x4)
+                0x20000800                PROVIDE (_bss_start, .)
+ *(.bss)
+                0x20000800                . = ALIGN (0x4)
+ *(.bss.*)
+ .bss.waThread1
+                0x20000800      0x150 /tmp/ccs4jQVz.o
+ .bss.waThread2
+                0x20000950      0x150 /tmp/ccs4jQVz.o
+ .bss.rlist     0x20000aa0       0x1c build/lib/libchibios_stm32f0xx.a(chschd.o)
+                0x20000aa0                rlist
+ .bss.mainthread.4755
+                0x20000abc       0x48 build/lib/libchibios_stm32f0xx.a(chsys.o)
+ *fill*         0x20000b04        0x4 
+ .bss._idle_thread_wa
+                0x20000b08       0xe0 build/lib/libchibios_stm32f0xx.a(chsys.o)
+                0x20000b08                _idle_thread_wa
+ .bss.vtlist    0x20000be8       0x10 build/lib/libchibios_stm32f0xx.a(chvt.o)
+                0x20000be8                vtlist
+ .bss.I2CD1     0x20000bf8       0x38 build/lib/libchibios_stm32f0xx.a(i2c_lld.o)
+                0x20000bf8                I2CD1
+ .bss.SD1       0x20000c30       0x7c build/lib/libchibios_stm32f0xx.a(serial_lld.o)
+                0x20000c30                SD1
+ .bss.dma_isr_redir
+                0x20000cac       0x28 build/lib/libchibios_stm32f0xx.a(stm32_dma.o)
+ .bss.dma_streams_mask
+                0x20000cd4        0x4 build/lib/libchibios_stm32f0xx.a(stm32_dma.o)
+ .bss.default_heap
+                0x20000cd8       0x20 build/lib/libchibios_stm32f0xx.a(chheap.o)
+ .bss.endmem    0x20000cf8        0x4 build/lib/libchibios_stm32f0xx.a(chmemcore.o)
+ .bss.nextmem   0x20000cfc        0x4 build/lib/libchibios_stm32f0xx.a(chmemcore.o)
+                0x20000d00                . = ALIGN (0x4)
+ *(COMMON)
+                0x20000d00                . = ALIGN (0x4)
+                0x20000d00                PROVIDE (_bss_end, .)
+                0x20000d00                PROVIDE (end, .)
+                0x20000d00                _end = .
+                0x20000d00                __heap_base__ = _end
+                0x20002000                __heap_end__ = __ram_end__
+LOAD /tmp/ccs4jQVz.o
+LOAD /tmp/cchXpNmp.o
+LOAD /tmp/cc8WG8hf.o
+LOAD build/lib/libchibios_stm32f0xx.a
+START GROUP
+LOAD /opt/gcc-arm-none-eabi-4_8-2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a
+LOAD /opt/gcc-arm-none-eabi-4_8-2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libg.a
+LOAD /opt/gcc-arm-none-eabi-4_8-2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libc.a
+END GROUP
+OUTPUT(build/stm32-chibios.elf elf32-littlearm)
+
+.debug_info     0x00000000     0xac32
+ .debug_info    0x00000000      0xc0a /tmp/ccs4jQVz.o
+ .debug_info    0x00000c0a      0x2b1 /tmp/cchXpNmp.o
+ .debug_info    0x00000ebb      0x1c5 /tmp/cc8WG8hf.o
+ .debug_info    0x00001080      0x8a4 build/lib/libchibios_stm32f0xx.a(chschd.o)
+ .debug_info    0x00001924      0x943 build/lib/libchibios_stm32f0xx.a(chsys.o)
+ .debug_info    0x00002267      0x9ad build/lib/libchibios_stm32f0xx.a(chthreads.o)
+ .debug_info    0x00002c14      0x1fa build/lib/libchibios_stm32f0xx.a(chvt.o)
+ .debug_info    0x00002e0e      0x1cf build/lib/libchibios_stm32f0xx.a(hal.o)
+ .debug_info    0x00002fdd      0x9b5 build/lib/libchibios_stm32f0xx.a(i2c.o)
+ .debug_info    0x00003992      0xf42 build/lib/libchibios_stm32f0xx.a(serial.o)
+ .debug_info    0x000048d4      0x2bc build/lib/libchibios_stm32f0xx.a(hal_lld.o)
+ .debug_info    0x00004b90      0xf27 build/lib/libchibios_stm32f0xx.a(i2c_lld.o)
+ .debug_info    0x00005ab7      0x4ff build/lib/libchibios_stm32f0xx.a(pal_lld.o)
+ .debug_info    0x00005fb6      0xd00 build/lib/libchibios_stm32f0xx.a(serial_lld.o)
+ .debug_info    0x00006cb6      0x59d build/lib/libchibios_stm32f0xx.a(stm32_dma.o)
+ .debug_info    0x00007253      0x192 build/lib/libchibios_stm32f0xx.a(board.o)
+ .debug_info    0x000073e5      0x6e4 build/lib/libchibios_stm32f0xx.a(chcore_v6m.o)
+ .debug_info    0x00007ac9      0x3fb build/lib/libchibios_stm32f0xx.a(nvic.o)
+ .debug_info    0x00007ec4      0x91a build/lib/libchibios_stm32f0xx.a(chevents.o)
+ .debug_info    0x000087de      0x6b9 build/lib/libchibios_stm32f0xx.a(chheap.o)
+ .debug_info    0x00008e97      0x4e7 build/lib/libchibios_stm32f0xx.a(chlists.o)
+ .debug_info    0x0000937e      0x1c8 build/lib/libchibios_stm32f0xx.a(chmemcore.o)
+ .debug_info    0x00009546      0x7c4 build/lib/libchibios_stm32f0xx.a(chmtx.o)
+ .debug_info    0x00009d0a      0x9a7 build/lib/libchibios_stm32f0xx.a(chqueues.o)
+ .debug_info    0x0000a6b1      0x581 build/lib/libchibios_stm32f0xx.a(chregistry.o)
+
+.debug_abbrev   0x00000000     0x2c54
+ .debug_abbrev  0x00000000      0x210 /tmp/ccs4jQVz.o
+ .debug_abbrev  0x00000210       0xf7 /tmp/cchXpNmp.o
+ .debug_abbrev  0x00000307       0xb2 /tmp/cc8WG8hf.o
+ .debug_abbrev  0x000003b9      0x2ba build/lib/libchibios_stm32f0xx.a(chschd.o)
+ .debug_abbrev  0x00000673      0x1d6 build/lib/libchibios_stm32f0xx.a(chsys.o)
+ .debug_abbrev  0x00000849      0x2b3 build/lib/libchibios_stm32f0xx.a(chthreads.o)
+ .debug_abbrev  0x00000afc      0x108 build/lib/libchibios_stm32f0xx.a(chvt.o)
+ .debug_abbrev  0x00000c04       0xe4 build/lib/libchibios_stm32f0xx.a(hal.o)
+ .debug_abbrev  0x00000ce8      0x20b build/lib/libchibios_stm32f0xx.a(i2c.o)
+ .debug_abbrev  0x00000ef3      0x269 build/lib/libchibios_stm32f0xx.a(serial.o)
+ .debug_abbrev  0x0000115c       0xe9 build/lib/libchibios_stm32f0xx.a(hal_lld.o)
+ .debug_abbrev  0x00001245      0x389 build/lib/libchibios_stm32f0xx.a(i2c_lld.o)
+ .debug_abbrev  0x000015ce      0x1a1 build/lib/libchibios_stm32f0xx.a(pal_lld.o)
+ .debug_abbrev  0x0000176f      0x2e0 build/lib/libchibios_stm32f0xx.a(serial_lld.o)
+ .debug_abbrev  0x00001a4f      0x1ef build/lib/libchibios_stm32f0xx.a(stm32_dma.o)
+ .debug_abbrev  0x00001c3e       0xc8 build/lib/libchibios_stm32f0xx.a(board.o)
+ .debug_abbrev  0x00001d06      0x174 build/lib/libchibios_stm32f0xx.a(chcore_v6m.o)
+ .debug_abbrev  0x00001e7a      0x10e build/lib/libchibios_stm32f0xx.a(nvic.o)
+ .debug_abbrev  0x00001f88      0x28c build/lib/libchibios_stm32f0xx.a(chevents.o)
+ .debug_abbrev  0x00002214      0x1b8 build/lib/libchibios_stm32f0xx.a(chheap.o)
+ .debug_abbrev  0x000023cc      0x135 build/lib/libchibios_stm32f0xx.a(chlists.o)
+ .debug_abbrev  0x00002501      0x13d build/lib/libchibios_stm32f0xx.a(chmemcore.o)
+ .debug_abbrev  0x0000263e      0x252 build/lib/libchibios_stm32f0xx.a(chmtx.o)
+ .debug_abbrev  0x00002890      0x27b build/lib/libchibios_stm32f0xx.a(chqueues.o)
+ .debug_abbrev  0x00002b0b      0x149 build/lib/libchibios_stm32f0xx.a(chregistry.o)
+
+.debug_loc      0x00000000     0x3003
+ .debug_loc     0x00000000       0x42 /tmp/ccs4jQVz.o
+ .debug_loc     0x00000042       0xec /tmp/cchXpNmp.o
+ .debug_loc     0x0000012e      0x2dd build/lib/libchibios_stm32f0xx.a(chschd.o)
+ .debug_loc     0x0000040b       0x31 build/lib/libchibios_stm32f0xx.a(chsys.o)
+ .debug_loc     0x0000043c      0x3ad build/lib/libchibios_stm32f0xx.a(chthreads.o)
+ .debug_loc     0x000007e9       0x86 build/lib/libchibios_stm32f0xx.a(chvt.o)
+ .debug_loc     0x0000086f      0x24b build/lib/libchibios_stm32f0xx.a(i2c.o)
+ .debug_loc     0x00000aba      0x522 build/lib/libchibios_stm32f0xx.a(serial.o)
+ .debug_loc     0x00000fdc      0x64f build/lib/libchibios_stm32f0xx.a(i2c_lld.o)
+ .debug_loc     0x0000162b      0x1e9 build/lib/libchibios_stm32f0xx.a(pal_lld.o)
+ .debug_loc     0x00001814      0x211 build/lib/libchibios_stm32f0xx.a(serial_lld.o)
+ .debug_loc     0x00001a25      0x1e1 build/lib/libchibios_stm32f0xx.a(stm32_dma.o)
+ .debug_loc     0x00001c06       0x89 build/lib/libchibios_stm32f0xx.a(chcore_v6m.o)
+ .debug_loc     0x00001c8f      0x16a build/lib/libchibios_stm32f0xx.a(nvic.o)
+ .debug_loc     0x00001df9      0x522 build/lib/libchibios_stm32f0xx.a(chevents.o)
+ .debug_loc     0x0000231b      0x338 build/lib/libchibios_stm32f0xx.a(chheap.o)
+ .debug_loc     0x00002653       0x7b build/lib/libchibios_stm32f0xx.a(chlists.o)
+ .debug_loc     0x000026ce       0xbf build/lib/libchibios_stm32f0xx.a(chmemcore.o)
+ .debug_loc     0x0000278d      0x23d build/lib/libchibios_stm32f0xx.a(chmtx.o)
+ .debug_loc     0x000029ca      0x5d8 build/lib/libchibios_stm32f0xx.a(chqueues.o)
+ .debug_loc     0x00002fa2       0x61 build/lib/libchibios_stm32f0xx.a(chregistry.o)
+
+.debug_aranges  0x00000000      0x6f0
+ .debug_aranges
+                0x00000000       0x30 /tmp/ccs4jQVz.o
+ .debug_aranges
+                0x00000030       0x38 /tmp/cchXpNmp.o
+ .debug_aranges
+                0x00000068       0x20 /tmp/cc8WG8hf.o
+ .debug_aranges
+                0x00000088       0x68 build/lib/libchibios_stm32f0xx.a(chschd.o)
+ .debug_aranges
+                0x000000f0       0x30 build/lib/libchibios_stm32f0xx.a(chsys.o)
+ .debug_aranges
+                0x00000120       0x78 build/lib/libchibios_stm32f0xx.a(chthreads.o)
+ .debug_aranges
+                0x00000198       0x30 build/lib/libchibios_stm32f0xx.a(chvt.o)
+ .debug_aranges
+                0x000001c8       0x20 build/lib/libchibios_stm32f0xx.a(hal.o)
+ .debug_aranges
+                0x000001e8       0x60 build/lib/libchibios_stm32f0xx.a(i2c.o)
+ .debug_aranges
+                0x00000248       0x88 build/lib/libchibios_stm32f0xx.a(serial.o)
+ .debug_aranges
+                0x000002d0       0x28 build/lib/libchibios_stm32f0xx.a(hal_lld.o)
+ .debug_aranges
+                0x000002f8       0x68 build/lib/libchibios_stm32f0xx.a(i2c_lld.o)
+ .debug_aranges
+                0x00000360       0x28 build/lib/libchibios_stm32f0xx.a(pal_lld.o)
+ .debug_aranges
+                0x00000388       0x40 build/lib/libchibios_stm32f0xx.a(serial_lld.o)
+ .debug_aranges
+                0x000003c8       0x48 build/lib/libchibios_stm32f0xx.a(stm32_dma.o)
+ .debug_aranges
+                0x00000410       0x28 build/lib/libchibios_stm32f0xx.a(board.o)
+ .debug_aranges
+                0x00000438       0x48 build/lib/libchibios_stm32f0xx.a(chcore_v6m.o)
+ .debug_aranges
+                0x00000480       0x30 build/lib/libchibios_stm32f0xx.a(nvic.o)
+ .debug_aranges
+                0x000004b0       0x88 build/lib/libchibios_stm32f0xx.a(chevents.o)
+ .debug_aranges
+                0x00000538       0x40 build/lib/libchibios_stm32f0xx.a(chheap.o)
+ .debug_aranges
+                0x00000578       0x50 build/lib/libchibios_stm32f0xx.a(chlists.o)
+ .debug_aranges
+                0x000005c8       0x38 build/lib/libchibios_stm32f0xx.a(chmemcore.o)
+ .debug_aranges
+                0x00000600       0x58 build/lib/libchibios_stm32f0xx.a(chmtx.o)
+ .debug_aranges
+                0x00000658       0x70 build/lib/libchibios_stm32f0xx.a(chqueues.o)
+ .debug_aranges
+                0x000006c8       0x28 build/lib/libchibios_stm32f0xx.a(chregistry.o)
+
+.debug_ranges   0x00000000      0x730
+ .debug_ranges  0x00000000       0x20 /tmp/ccs4jQVz.o
+ .debug_ranges  0x00000020       0x28 /tmp/cchXpNmp.o
+ .debug_ranges  0x00000048       0x10 /tmp/cc8WG8hf.o
+ .debug_ranges  0x00000058       0xa8 build/lib/libchibios_stm32f0xx.a(chschd.o)
+ .debug_ranges  0x00000100       0x38 build/lib/libchibios_stm32f0xx.a(chsys.o)
+ .debug_ranges  0x00000138       0x68 build/lib/libchibios_stm32f0xx.a(chthreads.o)
+ .debug_ranges  0x000001a0       0x20 build/lib/libchibios_stm32f0xx.a(chvt.o)
+ .debug_ranges  0x000001c0       0x10 build/lib/libchibios_stm32f0xx.a(hal.o)
+ .debug_ranges  0x000001d0       0x50 build/lib/libchibios_stm32f0xx.a(i2c.o)
+ .debug_ranges  0x00000220       0x78 build/lib/libchibios_stm32f0xx.a(serial.o)
+ .debug_ranges  0x00000298       0x18 build/lib/libchibios_stm32f0xx.a(hal_lld.o)
+ .debug_ranges  0x000002b0       0x90 build/lib/libchibios_stm32f0xx.a(i2c_lld.o)
+ .debug_ranges  0x00000340       0x58 build/lib/libchibios_stm32f0xx.a(pal_lld.o)
+ .debug_ranges  0x00000398       0x78 build/lib/libchibios_stm32f0xx.a(serial_lld.o)
+ .debug_ranges  0x00000410       0x38 build/lib/libchibios_stm32f0xx.a(stm32_dma.o)
+ .debug_ranges  0x00000448       0x18 build/lib/libchibios_stm32f0xx.a(board.o)
+ .debug_ranges  0x00000460       0x50 build/lib/libchibios_stm32f0xx.a(chcore_v6m.o)
+ .debug_ranges  0x000004b0       0x20 build/lib/libchibios_stm32f0xx.a(nvic.o)
+ .debug_ranges  0x000004d0       0x90 build/lib/libchibios_stm32f0xx.a(chevents.o)
+ .debug_ranges  0x00000560       0x30 build/lib/libchibios_stm32f0xx.a(chheap.o)
+ .debug_ranges  0x00000590       0x40 build/lib/libchibios_stm32f0xx.a(chlists.o)
+ .debug_ranges  0x000005d0       0x40 build/lib/libchibios_stm32f0xx.a(chmemcore.o)
+ .debug_ranges  0x00000610       0x90 build/lib/libchibios_stm32f0xx.a(chmtx.o)
+ .debug_ranges  0x000006a0       0x78 build/lib/libchibios_stm32f0xx.a(chqueues.o)
+ .debug_ranges  0x00000718       0x18 build/lib/libchibios_stm32f0xx.a(chregistry.o)
+
+.debug_macro    0x00000000     0x66e2
+ .debug_macro   0x00000000      0x32a /tmp/ccs4jQVz.o
+ .debug_macro   0x0000032a      0x802 /tmp/ccs4jQVz.o
+ .debug_macro   0x00000b2c       0x40 /tmp/ccs4jQVz.o
+ .debug_macro   0x00000b6c      0x10f /tmp/ccs4jQVz.o
+ .debug_macro   0x00000c7b      0x166 /tmp/ccs4jQVz.o
+ .debug_macro   0x00000de1       0x52 /tmp/ccs4jQVz.o
+ .debug_macro   0x00000e33       0x16 /tmp/ccs4jQVz.o
+ .debug_macro   0x00000e49       0x35 /tmp/ccs4jQVz.o
+ .debug_macro   0x00000e7e       0xa2 /tmp/ccs4jQVz.o
+ .debug_macro   0x00000f20      0x20e /tmp/ccs4jQVz.o
+ .debug_macro   0x0000112e       0x22 /tmp/ccs4jQVz.o
+ .debug_macro   0x00001150       0x28 /tmp/ccs4jQVz.o
+ .debug_macro   0x00001178       0x2e /tmp/ccs4jQVz.o
+ .debug_macro   0x000011a6       0x22 /tmp/ccs4jQVz.o
+ .debug_macro   0x000011c8       0x28 /tmp/ccs4jQVz.o
+ .debug_macro   0x000011f0       0x35 /tmp/ccs4jQVz.o
+ .debug_macro   0x00001225       0xce /tmp/ccs4jQVz.o
+ .debug_macro   0x000012f3      0x2e8 /tmp/ccs4jQVz.o
+ .debug_macro   0x000015db       0x12 /tmp/ccs4jQVz.o
+ .debug_macro   0x000015ed       0x67 /tmp/ccs4jQVz.o
+ .debug_macro   0x00001654       0x4d /tmp/ccs4jQVz.o
+ .debug_macro   0x000016a1       0x7b /tmp/ccs4jQVz.o
+ .debug_macro   0x0000171c       0x28 /tmp/ccs4jQVz.o
+ .debug_macro   0x00001744       0x5a /tmp/ccs4jQVz.o
+ .debug_macro   0x0000179e       0x1c /tmp/ccs4jQVz.o
+ .debug_macro   0x000017ba       0x16 /tmp/ccs4jQVz.o
+ .debug_macro   0x000017d0       0x59 /tmp/ccs4jQVz.o
+ .debug_macro   0x00001829       0x1c /tmp/ccs4jQVz.o
+ .debug_macro   0x00001845       0x31 /tmp/ccs4jQVz.o
+ .debug_macro   0x00001876       0x28 /tmp/ccs4jQVz.o
+ .debug_macro   0x0000189e       0x22 /tmp/ccs4jQVz.o
+ .debug_macro   0x000018c0       0xd5 /tmp/ccs4jQVz.o
+ .debug_macro   0x00001995       0x22 /tmp/ccs4jQVz.o
+ .debug_macro   0x000019b7       0x9c /tmp/ccs4jQVz.o
+ .debug_macro   0x00001a53       0x30 /tmp/ccs4jQVz.o
+ .debug_macro   0x00001a83       0x44 /tmp/ccs4jQVz.o
+ .debug_macro   0x00001ac7       0x92 /tmp/ccs4jQVz.o
+ .debug_macro   0x00001b59      0x37d /tmp/ccs4jQVz.o
+ .debug_macro   0x00001ed6      0x1ec /tmp/ccs4jQVz.o
+ .debug_macro   0x000020c2       0xd7 /tmp/ccs4jQVz.o
+ .debug_macro   0x00002199       0x77 /tmp/ccs4jQVz.o
+ .debug_macro   0x00002210       0x3a /tmp/ccs4jQVz.o
+ .debug_macro   0x0000224a      0x241 /tmp/ccs4jQVz.o
+ .debug_macro   0x0000248b     0x337a /tmp/ccs4jQVz.o
+ .debug_macro   0x00005805      0x23c /tmp/ccs4jQVz.o
+ .debug_macro   0x00005a41      0x266 /tmp/ccs4jQVz.o
+ .debug_macro   0x00005ca7       0x6a /tmp/ccs4jQVz.o
+ .debug_macro   0x00005d11      0x16a /tmp/ccs4jQVz.o
+ .debug_macro   0x00005e7b      0x169 /tmp/ccs4jQVz.o
+ .debug_macro   0x00005fe4       0x85 /tmp/ccs4jQVz.o
+ .debug_macro   0x00006069       0x5c /tmp/ccs4jQVz.o
+ .debug_macro   0x000060c5       0x46 /tmp/ccs4jQVz.o
+ .debug_macro   0x0000610b      0x14d /tmp/ccs4jQVz.o
+ .debug_macro   0x00006258       0x90 /tmp/ccs4jQVz.o
+ .debug_macro   0x000062e8       0x3a /tmp/ccs4jQVz.o
+ .debug_macro   0x00006322       0x70 /tmp/ccs4jQVz.o
+ .debug_macro   0x00006392       0x10 /tmp/ccs4jQVz.o
+ .debug_macro   0x000063a2       0x28 /tmp/ccs4jQVz.o
+ .debug_macro   0x000063ca       0x5f /tmp/ccs4jQVz.o
+ .debug_macro   0x00006429       0x5e /tmp/ccs4jQVz.o
+ .debug_macro   0x00006487       0xc4 /tmp/cchXpNmp.o
+ .debug_macro   0x0000654b      0x197 /tmp/cc8WG8hf.o
+
+.debug_line     0x00000000     0x37db
+ .debug_line    0x00000000      0x6de /tmp/ccs4jQVz.o
+ .debug_line    0x000006de      0x1ff /tmp/cchXpNmp.o
+ .debug_line    0x000008dd      0x39b /tmp/cc8WG8hf.o
+ .debug_line    0x00000c78      0x26c build/lib/libchibios_stm32f0xx.a(chschd.o)
+ .debug_line    0x00000ee4      0x1e7 build/lib/libchibios_stm32f0xx.a(chsys.o)
+ .debug_line    0x000010cb      0x2da build/lib/libchibios_stm32f0xx.a(chthreads.o)
+ .debug_line    0x000013a5      0x102 build/lib/libchibios_stm32f0xx.a(chvt.o)
+ .debug_line    0x000014a7      0x12e build/lib/libchibios_stm32f0xx.a(hal.o)
+ .debug_line    0x000015d5      0x265 build/lib/libchibios_stm32f0xx.a(i2c.o)
+ .debug_line    0x0000183a      0x2e3 build/lib/libchibios_stm32f0xx.a(serial.o)
+ .debug_line    0x00001b1d      0x161 build/lib/libchibios_stm32f0xx.a(hal_lld.o)
+ .debug_line    0x00001c7e      0x405 build/lib/libchibios_stm32f0xx.a(i2c_lld.o)
+ .debug_line    0x00002083      0x169 build/lib/libchibios_stm32f0xx.a(pal_lld.o)
+ .debug_line    0x000021ec      0x2cb build/lib/libchibios_stm32f0xx.a(serial_lld.o)
+ .debug_line    0x000024b7      0x1bd build/lib/libchibios_stm32f0xx.a(stm32_dma.o)
+ .debug_line    0x00002674       0xfb build/lib/libchibios_stm32f0xx.a(board.o)
+ .debug_line    0x0000276f      0x1b0 build/lib/libchibios_stm32f0xx.a(chcore_v6m.o)
+ .debug_line    0x0000291f       0xee build/lib/libchibios_stm32f0xx.a(nvic.o)
+ .debug_line    0x00002a0d      0x271 build/lib/libchibios_stm32f0xx.a(chevents.o)
+ .debug_line    0x00002c7e      0x236 build/lib/libchibios_stm32f0xx.a(chheap.o)
+ .debug_line    0x00002eb4      0x184 build/lib/libchibios_stm32f0xx.a(chlists.o)
+ .debug_line    0x00003038      0x12a build/lib/libchibios_stm32f0xx.a(chmemcore.o)
+ .debug_line    0x00003162      0x221 build/lib/libchibios_stm32f0xx.a(chmtx.o)
+ .debug_line    0x00003383      0x2c7 build/lib/libchibios_stm32f0xx.a(chqueues.o)
+ .debug_line    0x0000364a      0x191 build/lib/libchibios_stm32f0xx.a(chregistry.o)
+
+.debug_str      0x00000000    0x255f5
+ .debug_str     0x00000000    0x23f02 /tmp/ccs4jQVz.o
+                              0x240a5 (size before relaxing)
+ .debug_str     0x00023f02      0x2ef /tmp/cchXpNmp.o
+                               0x334f (size before relaxing)
+ .debug_str     0x000241f1      0x135 /tmp/cc8WG8hf.o
+                               0x7852 (size before relaxing)
+ .debug_str     0x00024326      0x25a build/lib/libchibios_stm32f0xx.a(chschd.o)
+                                0x4a6 (size before relaxing)
+ .debug_str     0x00024580      0x202 build/lib/libchibios_stm32f0xx.a(chsys.o)
+                                0x5e6 (size before relaxing)
+ .debug_str     0x00024782       0xbf build/lib/libchibios_stm32f0xx.a(chthreads.o)
+                                0x511 (size before relaxing)
+ .debug_str     0x00024841       0x19 build/lib/libchibios_stm32f0xx.a(chvt.o)
+                                0x244 (size before relaxing)
+ .debug_str     0x0002485a       0xba build/lib/libchibios_stm32f0xx.a(hal.o)
+                                0x26b (size before relaxing)
+ .debug_str     0x00024914      0x26d build/lib/libchibios_stm32f0xx.a(i2c.o)
+                                0x5b8 (size before relaxing)
+ .debug_str     0x00024b81      0x10e build/lib/libchibios_stm32f0xx.a(serial.o)
+                                0x60d (size before relaxing)
+ .debug_str     0x00024c8f       0xf6 build/lib/libchibios_stm32f0xx.a(hal_lld.o)
+                                0x2ba (size before relaxing)
+ .debug_str     0x00024d85      0x159 build/lib/libchibios_stm32f0xx.a(i2c_lld.o)
+                                0x783 (size before relaxing)
+ .debug_str     0x00024ede       0x47 build/lib/libchibios_stm32f0xx.a(pal_lld.o)
+                                0x349 (size before relaxing)
+ .debug_str     0x00024f25       0x53 build/lib/libchibios_stm32f0xx.a(serial_lld.o)
+                                0x647 (size before relaxing)
+ .debug_str     0x00024f78      0x250 build/lib/libchibios_stm32f0xx.a(stm32_dma.o)
+                                0x563 (size before relaxing)
+ .debug_str     0x000251c8       0x24 build/lib/libchibios_stm32f0xx.a(board.o)
+                                0x26d (size before relaxing)
+ .debug_str     0x000251ec       0x77 build/lib/libchibios_stm32f0xx.a(chcore_v6m.o)
+                                0x478 (size before relaxing)
+ .debug_str     0x00025263       0x72 build/lib/libchibios_stm32f0xx.a(nvic.o)
+                                0x2c3 (size before relaxing)
+ .debug_str     0x000252d5      0x121 build/lib/libchibios_stm32f0xx.a(chevents.o)
+                                0x51a (size before relaxing)
+ .debug_str     0x000253f6       0xaa build/lib/libchibios_stm32f0xx.a(chheap.o)
+                                0x40f (size before relaxing)
+ .debug_str     0x000254a0       0x3a build/lib/libchibios_stm32f0xx.a(chlists.o)
+                                0x376 (size before relaxing)
+ .debug_str     0x000254da       0x67 build/lib/libchibios_stm32f0xx.a(chmemcore.o)
+                                0x226 (size before relaxing)
+ .debug_str     0x00025541       0x55 build/lib/libchibios_stm32f0xx.a(chmtx.o)
+                                0x42b (size before relaxing)
+ .debug_str     0x00025596       0x26 build/lib/libchibios_stm32f0xx.a(chqueues.o)
+                                0x4b6 (size before relaxing)
+ .debug_str     0x000255bc       0x39 build/lib/libchibios_stm32f0xx.a(chregistry.o)
+                                0x494 (size before relaxing)
+
+.comment        0x00000000       0x70
+ .comment       0x00000000       0x70 /tmp/ccs4jQVz.o
+                                 0x71 (size before relaxing)
+ .comment       0x00000000       0x71 /tmp/cchXpNmp.o
+ .comment       0x00000000       0x71 /tmp/cc8WG8hf.o
+ .comment       0x00000000       0x71 build/lib/libchibios_stm32f0xx.a(chschd.o)
+ .comment       0x00000000       0x71 build/lib/libchibios_stm32f0xx.a(chsys.o)
+ .comment       0x00000000       0x71 build/lib/libchibios_stm32f0xx.a(chthreads.o)
+ .comment       0x00000000       0x71 build/lib/libchibios_stm32f0xx.a(chvt.o)
+ .comment       0x00000000       0x71 build/lib/libchibios_stm32f0xx.a(hal.o)
+ .comment       0x00000000       0x71 build/lib/libchibios_stm32f0xx.a(i2c.o)
+ .comment       0x00000000       0x71 build/lib/libchibios_stm32f0xx.a(serial.o)
+ .comment       0x00000000       0x71 build/lib/libchibios_stm32f0xx.a(hal_lld.o)
+ .comment       0x00000000       0x71 build/lib/libchibios_stm32f0xx.a(i2c_lld.o)
+ .comment       0x00000000       0x71 build/lib/libchibios_stm32f0xx.a(pal_lld.o)
+ .comment       0x00000000       0x71 build/lib/libchibios_stm32f0xx.a(serial_lld.o)
+ .comment       0x00000000       0x71 build/lib/libchibios_stm32f0xx.a(stm32_dma.o)
+ .comment       0x00000000       0x71 build/lib/libchibios_stm32f0xx.a(board.o)
+ .comment       0x00000000       0x71 build/lib/libchibios_stm32f0xx.a(chcore_v6m.o)
+ .comment       0x00000000       0x71 build/lib/libchibios_stm32f0xx.a(nvic.o)
+ .comment       0x00000000       0x71 build/lib/libchibios_stm32f0xx.a(chevents.o)
+ .comment       0x00000000       0x71 build/lib/libchibios_stm32f0xx.a(chheap.o)
+ .comment       0x00000000       0x71 build/lib/libchibios_stm32f0xx.a(chlists.o)
+ .comment       0x00000000       0x71 build/lib/libchibios_stm32f0xx.a(chmemcore.o)
+ .comment       0x00000000       0x71 build/lib/libchibios_stm32f0xx.a(chmtx.o)
+ .comment       0x00000000       0x71 build/lib/libchibios_stm32f0xx.a(chqueues.o)
+ .comment       0x00000000       0x71 build/lib/libchibios_stm32f0xx.a(chregistry.o)
+
+.ARM.attributes
+                0x00000000       0x31
+ .ARM.attributes
+                0x00000000       0x31 /tmp/ccs4jQVz.o
+ .ARM.attributes
+                0x00000031       0x31 /tmp/cchXpNmp.o
+ .ARM.attributes
+                0x00000062       0x31 /tmp/cc8WG8hf.o
+ .ARM.attributes
+                0x00000093       0x31 build/lib/libchibios_stm32f0xx.a(chschd.o)
+ .ARM.attributes
+                0x000000c4       0x31 build/lib/libchibios_stm32f0xx.a(chsys.o)
+ .ARM.attributes
+                0x000000f5       0x31 build/lib/libchibios_stm32f0xx.a(chthreads.o)
+ .ARM.attributes
+                0x00000126       0x31 build/lib/libchibios_stm32f0xx.a(chvt.o)
+ .ARM.attributes
+                0x00000157       0x31 build/lib/libchibios_stm32f0xx.a(hal.o)
+ .ARM.attributes
+                0x00000188       0x31 build/lib/libchibios_stm32f0xx.a(i2c.o)
+ .ARM.attributes
+                0x000001b9       0x31 build/lib/libchibios_stm32f0xx.a(serial.o)
+ .ARM.attributes
+                0x000001ea       0x31 build/lib/libchibios_stm32f0xx.a(hal_lld.o)
+ .ARM.attributes
+                0x0000021b       0x31 build/lib/libchibios_stm32f0xx.a(i2c_lld.o)
+ .ARM.attributes
+                0x0000024c       0x31 build/lib/libchibios_stm32f0xx.a(pal_lld.o)
+ .ARM.attributes
+                0x0000027d       0x31 build/lib/libchibios_stm32f0xx.a(serial_lld.o)
+ .ARM.attributes
+                0x000002ae       0x31 build/lib/libchibios_stm32f0xx.a(stm32_dma.o)
+ .ARM.attributes
+                0x000002df       0x31 build/lib/libchibios_stm32f0xx.a(board.o)
+ .ARM.attributes
+                0x00000310       0x31 build/lib/libchibios_stm32f0xx.a(chcore_v6m.o)
+ .ARM.attributes
+                0x00000341       0x31 build/lib/libchibios_stm32f0xx.a(nvic.o)
+ .ARM.attributes
+                0x00000372       0x31 build/lib/libchibios_stm32f0xx.a(chevents.o)
+ .ARM.attributes
+                0x000003a3       0x31 build/lib/libchibios_stm32f0xx.a(chheap.o)
+ .ARM.attributes
+                0x000003d4       0x31 build/lib/libchibios_stm32f0xx.a(chlists.o)
+ .ARM.attributes
+                0x00000405       0x31 build/lib/libchibios_stm32f0xx.a(chmemcore.o)
+ .ARM.attributes
+                0x00000436       0x31 build/lib/libchibios_stm32f0xx.a(chmtx.o)
+ .ARM.attributes
+                0x00000467       0x31 build/lib/libchibios_stm32f0xx.a(chqueues.o)
+ .ARM.attributes
+                0x00000498       0x31 build/lib/libchibios_stm32f0xx.a(chregistry.o)
+ .ARM.attributes
+                0x000004c9       0x1e /opt/gcc-arm-none-eabi-4_8-2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x000004e7       0x1e /opt/gcc-arm-none-eabi-4_8-2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(_dvmd_tls.o)
+
+.debug_frame    0x00000000      0xf2c
+ .debug_frame   0x00000000       0x64 /tmp/ccs4jQVz.o
+ .debug_frame   0x00000064       0x50 /tmp/cchXpNmp.o
+ .debug_frame   0x000000b4       0x20 /tmp/cc8WG8hf.o
+ .debug_frame   0x000000d4      0x104 build/lib/libchibios_stm32f0xx.a(chschd.o)
+ .debug_frame   0x000001d8       0x54 build/lib/libchibios_stm32f0xx.a(chsys.o)
+ .debug_frame   0x0000022c      0x120 build/lib/libchibios_stm32f0xx.a(chthreads.o)
+ .debug_frame   0x0000034c       0x50 build/lib/libchibios_stm32f0xx.a(chvt.o)
+ .debug_frame   0x0000039c       0x28 build/lib/libchibios_stm32f0xx.a(hal.o)
+ .debug_frame   0x000003c4       0xe8 build/lib/libchibios_stm32f0xx.a(i2c.o)
+ .debug_frame   0x000004ac      0x16c build/lib/libchibios_stm32f0xx.a(serial.o)
+ .debug_frame   0x00000618       0x38 build/lib/libchibios_stm32f0xx.a(hal_lld.o)
+ .debug_frame   0x00000650      0x140 build/lib/libchibios_stm32f0xx.a(i2c_lld.o)
+ .debug_frame   0x00000790       0x4c build/lib/libchibios_stm32f0xx.a(pal_lld.o)
+ .debug_frame   0x000007dc       0x90 build/lib/libchibios_stm32f0xx.a(serial_lld.o)
+ .debug_frame   0x0000086c       0xa4 build/lib/libchibios_stm32f0xx.a(stm32_dma.o)
+ .debug_frame   0x00000910       0x38 build/lib/libchibios_stm32f0xx.a(board.o)
+ .debug_frame   0x00000948       0x78 build/lib/libchibios_stm32f0xx.a(chcore_v6m.o)
+ .debug_frame   0x000009c0       0x5c build/lib/libchibios_stm32f0xx.a(nvic.o)
+ .debug_frame   0x00000a1c      0x148 build/lib/libchibios_stm32f0xx.a(chevents.o)
+ .debug_frame   0x00000b64       0x98 build/lib/libchibios_stm32f0xx.a(chheap.o)
+ .debug_frame   0x00000bfc       0x88 build/lib/libchibios_stm32f0xx.a(chlists.o)
+ .debug_frame   0x00000c84       0x50 build/lib/libchibios_stm32f0xx.a(chmemcore.o)
+ .debug_frame   0x00000cd4       0xc0 build/lib/libchibios_stm32f0xx.a(chmtx.o)
+ .debug_frame   0x00000d94      0x140 build/lib/libchibios_stm32f0xx.a(chqueues.o)
+ .debug_frame   0x00000ed4       0x38 build/lib/libchibios_stm32f0xx.a(chregistry.o)
+ .debug_frame   0x00000f0c       0x20 /opt/gcc-arm-none-eabi-4_8-2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(_udivsi3.o)
+
+Cross Reference Table
+
+Symbol                                            File
+BusFaultVector                                    /tmp/cc8WG8hf.o
+DebugMonitorVector                                /tmp/cc8WG8hf.o
+HardFaultVector                                   /tmp/cc8WG8hf.o
+I2CD1                                             build/lib/libchibios_stm32f0xx.a(i2c_lld.o)
+MemManageVector                                   /tmp/cc8WG8hf.o
+NMIVector                                         build/lib/libchibios_stm32f0xx.a(chcore_v6m.o)
+                                                  /tmp/cc8WG8hf.o
+PendSVVector                                      /tmp/cc8WG8hf.o
+ResetHandler                                      /tmp/cchXpNmp.o
+                                                  /tmp/cc8WG8hf.o
+SD1                                               build/lib/libchibios_stm32f0xx.a(serial_lld.o)
+                                                  /tmp/ccs4jQVz.o
+SVCallVector                                      /tmp/cc8WG8hf.o
+SysTickVector                                     build/lib/libchibios_stm32f0xx.a(chcore_v6m.o)
+                                                  /tmp/cc8WG8hf.o
+UsageFaultVector                                  /tmp/cc8WG8hf.o
+Vector1C                                          /tmp/cc8WG8hf.o
+Vector20                                          /tmp/cc8WG8hf.o
+Vector24                                          /tmp/cc8WG8hf.o
+Vector28                                          /tmp/cc8WG8hf.o
+Vector34                                          /tmp/cc8WG8hf.o
+Vector40                                          /tmp/cc8WG8hf.o
+Vector44                                          /tmp/cc8WG8hf.o
+Vector48                                          /tmp/cc8WG8hf.o
+Vector4C                                          /tmp/cc8WG8hf.o
+Vector50                                          /tmp/cc8WG8hf.o
+Vector54                                          /tmp/cc8WG8hf.o
+Vector58                                          /tmp/cc8WG8hf.o
+Vector5C                                          /tmp/cc8WG8hf.o
+Vector60                                          /tmp/cc8WG8hf.o
+Vector64                                          build/lib/libchibios_stm32f0xx.a(stm32_dma.o)
+                                                  /tmp/cc8WG8hf.o
+Vector68                                          build/lib/libchibios_stm32f0xx.a(stm32_dma.o)
+                                                  /tmp/cc8WG8hf.o
+Vector6C                                          build/lib/libchibios_stm32f0xx.a(stm32_dma.o)
+                                                  /tmp/cc8WG8hf.o
+Vector70                                          /tmp/cc8WG8hf.o
+Vector74                                          /tmp/cc8WG8hf.o
+Vector78                                          /tmp/cc8WG8hf.o
+Vector7C                                          /tmp/cc8WG8hf.o
+Vector80                                          /tmp/cc8WG8hf.o
+Vector84                                          /tmp/cc8WG8hf.o
+Vector88                                          /tmp/cc8WG8hf.o
+Vector8C                                          /tmp/cc8WG8hf.o
+Vector90                                          /tmp/cc8WG8hf.o
+Vector94                                          /tmp/cc8WG8hf.o
+Vector98                                          /tmp/cc8WG8hf.o
+Vector9C                                          build/lib/libchibios_stm32f0xx.a(i2c_lld.o)
+                                                  /tmp/cc8WG8hf.o
+VectorA0                                          /tmp/cc8WG8hf.o
+VectorA4                                          /tmp/cc8WG8hf.o
+VectorA8                                          /tmp/cc8WG8hf.o
+VectorAC                                          build/lib/libchibios_stm32f0xx.a(serial_lld.o)
+                                                  /tmp/cc8WG8hf.o
+VectorB0                                          /tmp/cc8WG8hf.o
+VectorB4                                          /tmp/cc8WG8hf.o
+VectorB8                                          /tmp/cc8WG8hf.o
+VectorBC                                          /tmp/cc8WG8hf.o
+__aeabi_idiv0                                     /opt/gcc-arm-none-eabi-4_8-2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(_dvmd_tls.o)
+                                                  /opt/gcc-arm-none-eabi-4_8-2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(_udivsi3.o)
+__aeabi_ldiv0                                     /opt/gcc-arm-none-eabi-4_8-2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(_dvmd_tls.o)
+__aeabi_uidiv                                     /opt/gcc-arm-none-eabi-4_8-2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(_udivsi3.o)
+                                                  build/lib/libchibios_stm32f0xx.a(serial_lld.o)
+__aeabi_uidivmod                                  /opt/gcc-arm-none-eabi-4_8-2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(_udivsi3.o)
+__early_init                                      build/lib/libchibios_stm32f0xx.a(board.o)
+                                                  /tmp/cchXpNmp.o
+__fini_array_end                                  /tmp/cchXpNmp.o
+__fini_array_start                                /tmp/cchXpNmp.o
+__heap_base__                                     build/lib/libchibios_stm32f0xx.a(chmemcore.o)
+__heap_end__                                      build/lib/libchibios_stm32f0xx.a(chmemcore.o)
+__init_array_end                                  /tmp/cchXpNmp.o
+__init_array_start                                /tmp/cchXpNmp.o
+__late_init                                       /tmp/cchXpNmp.o
+__main_stack_base__                               /tmp/cchXpNmp.o
+__main_stack_end__                                /tmp/cc8WG8hf.o
+                                                  /tmp/cchXpNmp.o
+__process_stack_base__                            /tmp/cchXpNmp.o
+__process_stack_end__                             /tmp/cchXpNmp.o
+__udivsi3                                         /opt/gcc-arm-none-eabi-4_8-2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(_udivsi3.o)
+_bss_end                                          /tmp/cchXpNmp.o
+_bss_start                                        /tmp/cchXpNmp.o
+_core_init                                        build/lib/libchibios_stm32f0xx.a(chmemcore.o)
+                                                  build/lib/libchibios_stm32f0xx.a(chsys.o)
+_data                                             /tmp/cchXpNmp.o
+_default_exit                                     /tmp/cchXpNmp.o
+_edata                                            /tmp/cchXpNmp.o
+_heap_init                                        build/lib/libchibios_stm32f0xx.a(chheap.o)
+                                                  build/lib/libchibios_stm32f0xx.a(chsys.o)
+_idle_thread                                      build/lib/libchibios_stm32f0xx.a(chsys.o)
+_idle_thread_wa                                   build/lib/libchibios_stm32f0xx.a(chsys.o)
+_pal_lld_init                                     build/lib/libchibios_stm32f0xx.a(pal_lld.o)
+                                                  build/lib/libchibios_stm32f0xx.a(hal.o)
+_pal_lld_setgroupmode                             build/lib/libchibios_stm32f0xx.a(pal_lld.o)
+                                                  /tmp/ccs4jQVz.o
+_port_irq_epilogue                                build/lib/libchibios_stm32f0xx.a(chcore_v6m.o)
+                                                  build/lib/libchibios_stm32f0xx.a(stm32_dma.o)
+                                                  build/lib/libchibios_stm32f0xx.a(serial_lld.o)
+                                                  build/lib/libchibios_stm32f0xx.a(i2c_lld.o)
+_port_switch                                      build/lib/libchibios_stm32f0xx.a(chcore_v6m.o)
+                                                  build/lib/libchibios_stm32f0xx.a(chschd.o)
+_port_switch_from_isr                             build/lib/libchibios_stm32f0xx.a(chcore_v6m.o)
+_port_thread_start                                build/lib/libchibios_stm32f0xx.a(chcore_v6m.o)
+                                                  build/lib/libchibios_stm32f0xx.a(chthreads.o)
+_scheduler_init                                   build/lib/libchibios_stm32f0xx.a(chschd.o)
+                                                  build/lib/libchibios_stm32f0xx.a(chsys.o)
+_stm32_dma_streams                                build/lib/libchibios_stm32f0xx.a(stm32_dma.o)
+                                                  build/lib/libchibios_stm32f0xx.a(i2c_lld.o)
+_textdata                                         /tmp/cchXpNmp.o
+_thread_init                                      build/lib/libchibios_stm32f0xx.a(chthreads.o)
+                                                  build/lib/libchibios_stm32f0xx.a(chsys.o)
+_unhandled_exception                              /tmp/cc8WG8hf.o
+_vectors                                          /tmp/cc8WG8hf.o
+_vt_init                                          build/lib/libchibios_stm32f0xx.a(chvt.o)
+                                                  build/lib/libchibios_stm32f0xx.a(chsys.o)
+boardInit                                         build/lib/libchibios_stm32f0xx.a(board.o)
+                                                  build/lib/libchibios_stm32f0xx.a(hal.o)
+chCoreAlloc                                       build/lib/libchibios_stm32f0xx.a(chmemcore.o)
+                                                  build/lib/libchibios_stm32f0xx.a(chheap.o)
+chCoreAllocI                                      build/lib/libchibios_stm32f0xx.a(chmemcore.o)
+chCoreStatus                                      build/lib/libchibios_stm32f0xx.a(chmemcore.o)
+chEvtAddEvents                                    build/lib/libchibios_stm32f0xx.a(chevents.o)
+chEvtBroadcastFlags                               build/lib/libchibios_stm32f0xx.a(chevents.o)
+chEvtBroadcastFlagsI                              build/lib/libchibios_stm32f0xx.a(chevents.o)
+                                                  build/lib/libchibios_stm32f0xx.a(serial_lld.o)
+                                                  build/lib/libchibios_stm32f0xx.a(serial.o)
+chEvtDispatch                                     build/lib/libchibios_stm32f0xx.a(chevents.o)
+chEvtGetAndClearEvents                            build/lib/libchibios_stm32f0xx.a(chevents.o)
+chEvtGetAndClearFlags                             build/lib/libchibios_stm32f0xx.a(chevents.o)
+chEvtGetAndClearFlagsI                            build/lib/libchibios_stm32f0xx.a(chevents.o)
+chEvtRegisterMask                                 build/lib/libchibios_stm32f0xx.a(chevents.o)
+chEvtSignal                                       build/lib/libchibios_stm32f0xx.a(chevents.o)
+chEvtSignalI                                      build/lib/libchibios_stm32f0xx.a(chevents.o)
+chEvtUnregister                                   build/lib/libchibios_stm32f0xx.a(chevents.o)
+chEvtWaitAllTimeout                               build/lib/libchibios_stm32f0xx.a(chevents.o)
+chEvtWaitAnyTimeout                               build/lib/libchibios_stm32f0xx.a(chevents.o)
+chEvtWaitOneTimeout                               build/lib/libchibios_stm32f0xx.a(chevents.o)
+chHeapAlloc                                       build/lib/libchibios_stm32f0xx.a(chheap.o)
+                                                  build/lib/libchibios_stm32f0xx.a(chdynamic.o)
+chHeapFree                                        build/lib/libchibios_stm32f0xx.a(chheap.o)
+                                                  build/lib/libchibios_stm32f0xx.a(chdynamic.o)
+chHeapInit                                        build/lib/libchibios_stm32f0xx.a(chheap.o)
+chHeapStatus                                      build/lib/libchibios_stm32f0xx.a(chheap.o)
+chIQGetTimeout                                    build/lib/libchibios_stm32f0xx.a(chqueues.o)
+                                                  build/lib/libchibios_stm32f0xx.a(serial.o)
+chIQInit                                          build/lib/libchibios_stm32f0xx.a(chqueues.o)
+                                                  build/lib/libchibios_stm32f0xx.a(serial.o)
+chIQPutI                                          build/lib/libchibios_stm32f0xx.a(chqueues.o)
+                                                  build/lib/libchibios_stm32f0xx.a(serial.o)
+chIQReadTimeout                                   build/lib/libchibios_stm32f0xx.a(chqueues.o)
+                                                  build/lib/libchibios_stm32f0xx.a(serial.o)
+chIQResetI                                        build/lib/libchibios_stm32f0xx.a(chqueues.o)
+                                                  build/lib/libchibios_stm32f0xx.a(serial.o)
+chMtxInit                                         build/lib/libchibios_stm32f0xx.a(chmtx.o)
+                                                  build/lib/libchibios_stm32f0xx.a(chheap.o)
+                                                  build/lib/libchibios_stm32f0xx.a(i2c.o)
+chMtxLock                                         build/lib/libchibios_stm32f0xx.a(chmtx.o)
+                                                  build/lib/libchibios_stm32f0xx.a(chheap.o)
+                                                  build/lib/libchibios_stm32f0xx.a(i2c.o)
+chMtxLockS                                        build/lib/libchibios_stm32f0xx.a(chmtx.o)
+chMtxTryLock                                      build/lib/libchibios_stm32f0xx.a(chmtx.o)
+chMtxTryLockS                                     build/lib/libchibios_stm32f0xx.a(chmtx.o)
+chMtxUnlock                                       build/lib/libchibios_stm32f0xx.a(chmtx.o)
+                                                  build/lib/libchibios_stm32f0xx.a(chheap.o)
+                                                  build/lib/libchibios_stm32f0xx.a(i2c.o)
+chMtxUnlockAll                                    build/lib/libchibios_stm32f0xx.a(chmtx.o)
+chMtxUnlockS                                      build/lib/libchibios_stm32f0xx.a(chmtx.o)
+chOQGetI                                          build/lib/libchibios_stm32f0xx.a(chqueues.o)
+                                                  build/lib/libchibios_stm32f0xx.a(serial_lld.o)
+                                                  build/lib/libchibios_stm32f0xx.a(serial.o)
+chOQInit                                          build/lib/libchibios_stm32f0xx.a(chqueues.o)
+                                                  build/lib/libchibios_stm32f0xx.a(serial.o)
+chOQPutTimeout                                    build/lib/libchibios_stm32f0xx.a(chqueues.o)
+                                                  build/lib/libchibios_stm32f0xx.a(serial.o)
+chOQResetI                                        build/lib/libchibios_stm32f0xx.a(chqueues.o)
+                                                  build/lib/libchibios_stm32f0xx.a(serial.o)
+chOQWriteTimeout                                  build/lib/libchibios_stm32f0xx.a(chqueues.o)
+                                                  build/lib/libchibios_stm32f0xx.a(serial.o)
+chPoolAlloc                                       build/lib/libchibios_stm32f0xx.a(chmempools.o)
+                                                  build/lib/libchibios_stm32f0xx.a(chdynamic.o)
+chPoolAllocI                                      build/lib/libchibios_stm32f0xx.a(chmempools.o)
+chPoolFree                                        build/lib/libchibios_stm32f0xx.a(chmempools.o)
+                                                  build/lib/libchibios_stm32f0xx.a(chdynamic.o)
+chPoolFreeI                                       build/lib/libchibios_stm32f0xx.a(chmempools.o)
+chPoolInit                                        build/lib/libchibios_stm32f0xx.a(chmempools.o)
+chPoolLoadArray                                   build/lib/libchibios_stm32f0xx.a(chmempools.o)
+chRegFirstThread                                  build/lib/libchibios_stm32f0xx.a(chregistry.o)
+chRegNextThread                                   build/lib/libchibios_stm32f0xx.a(chregistry.o)
+chSchDoReschedule                                 build/lib/libchibios_stm32f0xx.a(chschd.o)
+                                                  build/lib/libchibios_stm32f0xx.a(chcore_v6m.o)
+chSchDoRescheduleAhead                            build/lib/libchibios_stm32f0xx.a(chschd.o)
+chSchDoRescheduleBehind                           build/lib/libchibios_stm32f0xx.a(chschd.o)
+                                                  build/lib/libchibios_stm32f0xx.a(chthreads.o)
+chSchGoSleepS                                     build/lib/libchibios_stm32f0xx.a(chschd.o)
+                                                  build/lib/libchibios_stm32f0xx.a(chmtx.o)
+                                                  build/lib/libchibios_stm32f0xx.a(i2c_lld.o)
+                                                  build/lib/libchibios_stm32f0xx.a(chthreads.o)
+chSchGoSleepTimeoutS                              build/lib/libchibios_stm32f0xx.a(chschd.o)
+                                                  build/lib/libchibios_stm32f0xx.a(chqueues.o)
+                                                  build/lib/libchibios_stm32f0xx.a(chevents.o)
+                                                  build/lib/libchibios_stm32f0xx.a(chthreads.o)
+chSchReadyI                                       build/lib/libchibios_stm32f0xx.a(chschd.o)
+                                                  build/lib/libchibios_stm32f0xx.a(chqueues.o)
+                                                  build/lib/libchibios_stm32f0xx.a(chmtx.o)
+                                                  build/lib/libchibios_stm32f0xx.a(chevents.o)
+                                                  build/lib/libchibios_stm32f0xx.a(i2c_lld.o)
+                                                  build/lib/libchibios_stm32f0xx.a(chthreads.o)
+chSchRescheduleS                                  build/lib/libchibios_stm32f0xx.a(chschd.o)
+                                                  build/lib/libchibios_stm32f0xx.a(chmtx.o)
+                                                  build/lib/libchibios_stm32f0xx.a(chevents.o)
+                                                  build/lib/libchibios_stm32f0xx.a(serial.o)
+                                                  build/lib/libchibios_stm32f0xx.a(chthreads.o)
+chSchWakeupS                                      build/lib/libchibios_stm32f0xx.a(chschd.o)
+                                                  build/lib/libchibios_stm32f0xx.a(chmtx.o)
+                                                  build/lib/libchibios_stm32f0xx.a(chdynamic.o)
+                                                  build/lib/libchibios_stm32f0xx.a(chthreads.o)
+chSysInit                                         build/lib/libchibios_stm32f0xx.a(chsys.o)
+                                                  /tmp/ccs4jQVz.o
+chSysTimerHandlerI                                build/lib/libchibios_stm32f0xx.a(chsys.o)
+                                                  build/lib/libchibios_stm32f0xx.a(chcore_v6m.o)
+chThdAddRef                                       build/lib/libchibios_stm32f0xx.a(chdynamic.o)
+chThdCreateFromHeap                               build/lib/libchibios_stm32f0xx.a(chdynamic.o)
+chThdCreateFromMemoryPool                         build/lib/libchibios_stm32f0xx.a(chdynamic.o)
+chThdCreateI                                      build/lib/libchibios_stm32f0xx.a(chthreads.o)
+                                                  build/lib/libchibios_stm32f0xx.a(chdynamic.o)
+chThdCreateStatic                                 build/lib/libchibios_stm32f0xx.a(chthreads.o)
+                                                  build/lib/libchibios_stm32f0xx.a(chsys.o)
+                                                  /tmp/ccs4jQVz.o
+chThdExit                                         build/lib/libchibios_stm32f0xx.a(chthreads.o)
+                                                  build/lib/libchibios_stm32f0xx.a(chcore_v6m.o)
+chThdExitS                                        build/lib/libchibios_stm32f0xx.a(chthreads.o)
+chThdRelease                                      build/lib/libchibios_stm32f0xx.a(chdynamic.o)
+                                                  build/lib/libchibios_stm32f0xx.a(chregistry.o)
+                                                  build/lib/libchibios_stm32f0xx.a(chthreads.o)
+chThdResume                                       build/lib/libchibios_stm32f0xx.a(chthreads.o)
+chThdSetPriority                                  build/lib/libchibios_stm32f0xx.a(chthreads.o)
+chThdSleep                                        build/lib/libchibios_stm32f0xx.a(chthreads.o)
+                                                  /tmp/ccs4jQVz.o
+chThdSleepUntil                                   build/lib/libchibios_stm32f0xx.a(chthreads.o)
+chThdTerminate                                    build/lib/libchibios_stm32f0xx.a(chthreads.o)
+chThdWait                                         build/lib/libchibios_stm32f0xx.a(chthreads.o)
+chThdYield                                        build/lib/libchibios_stm32f0xx.a(chthreads.o)
+chVTResetI                                        build/lib/libchibios_stm32f0xx.a(chvt.o)
+                                                  build/lib/libchibios_stm32f0xx.a(i2c_lld.o)
+                                                  build/lib/libchibios_stm32f0xx.a(chschd.o)
+chVTSetI                                          build/lib/libchibios_stm32f0xx.a(chvt.o)
+                                                  build/lib/libchibios_stm32f0xx.a(i2c_lld.o)
+                                                  build/lib/libchibios_stm32f0xx.a(chschd.o)
+ch_debug                                          build/lib/libchibios_stm32f0xx.a(chregistry.o)
+                                                  build/lib/libchibios_stm32f0xx.a(chsys.o)
+dequeue                                           build/lib/libchibios_stm32f0xx.a(chlists.o)
+                                                  build/lib/libchibios_stm32f0xx.a(chmtx.o)
+                                                  build/lib/libchibios_stm32f0xx.a(chschd.o)
+dmaInit                                           build/lib/libchibios_stm32f0xx.a(stm32_dma.o)
+                                                  build/lib/libchibios_stm32f0xx.a(hal_lld.o)
+dmaStreamAllocate                                 build/lib/libchibios_stm32f0xx.a(stm32_dma.o)
+                                                  build/lib/libchibios_stm32f0xx.a(i2c_lld.o)
+dmaStreamRelease                                  build/lib/libchibios_stm32f0xx.a(stm32_dma.o)
+                                                  build/lib/libchibios_stm32f0xx.a(i2c_lld.o)
+fifo_remove                                       build/lib/libchibios_stm32f0xx.a(chlists.o)
+                                                  build/lib/libchibios_stm32f0xx.a(chqueues.o)
+                                                  build/lib/libchibios_stm32f0xx.a(chmtx.o)
+                                                  build/lib/libchibios_stm32f0xx.a(chschd.o)
+halInit                                           build/lib/libchibios_stm32f0xx.a(hal.o)
+                                                  /tmp/ccs4jQVz.o
+hal_lld_init                                      build/lib/libchibios_stm32f0xx.a(hal_lld.o)
+                                                  build/lib/libchibios_stm32f0xx.a(hal.o)
+i2cAcquireBus                                     build/lib/libchibios_stm32f0xx.a(i2c.o)
+i2cGetErrors                                      build/lib/libchibios_stm32f0xx.a(i2c.o)
+i2cInit                                           build/lib/libchibios_stm32f0xx.a(i2c.o)
+                                                  build/lib/libchibios_stm32f0xx.a(hal.o)
+i2cMasterReceiveTimeout                           build/lib/libchibios_stm32f0xx.a(i2c.o)
+i2cMasterTransmitTimeout                          build/lib/libchibios_stm32f0xx.a(i2c.o)
+i2cObjectInit                                     build/lib/libchibios_stm32f0xx.a(i2c.o)
+                                                  build/lib/libchibios_stm32f0xx.a(i2c_lld.o)
+i2cReleaseBus                                     build/lib/libchibios_stm32f0xx.a(i2c.o)
+i2cStart                                          build/lib/libchibios_stm32f0xx.a(i2c.o)
+i2cStop                                           build/lib/libchibios_stm32f0xx.a(i2c.o)
+i2c_lld_init                                      build/lib/libchibios_stm32f0xx.a(i2c_lld.o)
+                                                  build/lib/libchibios_stm32f0xx.a(i2c.o)
+i2c_lld_master_receive_timeout                    build/lib/libchibios_stm32f0xx.a(i2c_lld.o)
+                                                  build/lib/libchibios_stm32f0xx.a(i2c.o)
+i2c_lld_master_transmit_timeout                   build/lib/libchibios_stm32f0xx.a(i2c_lld.o)
+                                                  build/lib/libchibios_stm32f0xx.a(i2c.o)
+i2c_lld_start                                     build/lib/libchibios_stm32f0xx.a(i2c_lld.o)
+                                                  build/lib/libchibios_stm32f0xx.a(i2c.o)
+i2c_lld_stop                                      build/lib/libchibios_stm32f0xx.a(i2c_lld.o)
+                                                  build/lib/libchibios_stm32f0xx.a(i2c.o)
+lifo_remove                                       build/lib/libchibios_stm32f0xx.a(chlists.o)
+list_insert                                       build/lib/libchibios_stm32f0xx.a(chlists.o)
+                                                  build/lib/libchibios_stm32f0xx.a(chthreads.o)
+list_remove                                       build/lib/libchibios_stm32f0xx.a(chlists.o)
+                                                  build/lib/libchibios_stm32f0xx.a(chthreads.o)
+main                                              /tmp/ccs4jQVz.o
+                                                  /tmp/cchXpNmp.o
+nvicDisableVector                                 build/lib/libchibios_stm32f0xx.a(nvic.o)
+                                                  build/lib/libchibios_stm32f0xx.a(stm32_dma.o)
+                                                  build/lib/libchibios_stm32f0xx.a(serial_lld.o)
+                                                  build/lib/libchibios_stm32f0xx.a(i2c_lld.o)
+nvicEnableVector                                  build/lib/libchibios_stm32f0xx.a(nvic.o)
+                                                  build/lib/libchibios_stm32f0xx.a(stm32_dma.o)
+                                                  build/lib/libchibios_stm32f0xx.a(serial_lld.o)
+                                                  build/lib/libchibios_stm32f0xx.a(i2c_lld.o)
+nvicSetSystemHandlerPriority                      build/lib/libchibios_stm32f0xx.a(nvic.o)
+                                                  build/lib/libchibios_stm32f0xx.a(chsys.o)
+pal_default_config                                build/lib/libchibios_stm32f0xx.a(board.o)
+                                                  build/lib/libchibios_stm32f0xx.a(hal.o)
+port_halt                                         build/lib/libchibios_stm32f0xx.a(chcore.o)
+                                                  build/lib/libchibios_stm32f0xx.a(i2c_lld.o)
+prio_insert                                       build/lib/libchibios_stm32f0xx.a(chlists.o)
+                                                  build/lib/libchibios_stm32f0xx.a(chmtx.o)
+queue_insert                                      build/lib/libchibios_stm32f0xx.a(chlists.o)
+                                                  build/lib/libchibios_stm32f0xx.a(chqueues.o)
+rlist                                             build/lib/libchibios_stm32f0xx.a(chschd.o)
+                                                  build/lib/libchibios_stm32f0xx.a(chregistry.o)
+                                                  build/lib/libchibios_stm32f0xx.a(chqueues.o)
+                                                  build/lib/libchibios_stm32f0xx.a(chmtx.o)
+                                                  build/lib/libchibios_stm32f0xx.a(chevents.o)
+                                                  build/lib/libchibios_stm32f0xx.a(chcore_v6m.o)
+                                                  build/lib/libchibios_stm32f0xx.a(i2c_lld.o)
+                                                  build/lib/libchibios_stm32f0xx.a(chthreads.o)
+                                                  build/lib/libchibios_stm32f0xx.a(chsys.o)
+                                                  /tmp/ccs4jQVz.o
+sdIncomingDataI                                   build/lib/libchibios_stm32f0xx.a(serial.o)
+                                                  build/lib/libchibios_stm32f0xx.a(serial_lld.o)
+sdInit                                            build/lib/libchibios_stm32f0xx.a(serial.o)
+                                                  build/lib/libchibios_stm32f0xx.a(hal.o)
+sdObjectInit                                      build/lib/libchibios_stm32f0xx.a(serial.o)
+                                                  build/lib/libchibios_stm32f0xx.a(serial_lld.o)
+sdRequestDataI                                    build/lib/libchibios_stm32f0xx.a(serial.o)
+sdStart                                           build/lib/libchibios_stm32f0xx.a(serial.o)
+                                                  /tmp/ccs4jQVz.o
+sdStop                                            build/lib/libchibios_stm32f0xx.a(serial.o)
+sd_lld_init                                       build/lib/libchibios_stm32f0xx.a(serial_lld.o)
+                                                  build/lib/libchibios_stm32f0xx.a(serial.o)
+sd_lld_start                                      build/lib/libchibios_stm32f0xx.a(serial_lld.o)
+                                                  build/lib/libchibios_stm32f0xx.a(serial.o)
+sd_lld_stop                                       build/lib/libchibios_stm32f0xx.a(serial_lld.o)
+                                                  build/lib/libchibios_stm32f0xx.a(serial.o)
+stm32_clock_init                                  build/lib/libchibios_stm32f0xx.a(hal_lld.o)
+                                                  build/lib/libchibios_stm32f0xx.a(board.o)
+vtlist                                            build/lib/libchibios_stm32f0xx.a(chvt.o)
+                                                  build/lib/libchibios_stm32f0xx.a(chthreads.o)
+                                                  build/lib/libchibios_stm32f0xx.a(chsys.o)

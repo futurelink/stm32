@@ -24,13 +24,13 @@ void Application::start() {
 	vTaskStartScheduler();
 }
 
-void Application::attach(Task *task) {
+void Application::attach(Task *task,  char *title) {
 	FNMETHOD impl = &Task::impl;
 
 	pdTASK_CODE proc = ((pdTASK_CODE)(task->*impl));
 	xTaskCreate(
 		proc,
-		(signed char *) "test",
+		(signed char *) title,
 		configMINIMAL_STACK_SIZE,
 		task,
 		2,

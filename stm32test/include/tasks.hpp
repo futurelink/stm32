@@ -13,11 +13,25 @@
 #include "FreeRTOS.h"
 #include "task.h"
 
+/**
+ * Task base class.
+ */
 class Task {
 public:
 	Task() {};
 	virtual ~Task() {};
+
+	/**
+	 * Task initialization method, must be reimplemented in
+	 * inherited classes.
+	 */
 	virtual void init() {};
+
+	/**
+	 * Task main loop implementation.
+	 *
+	 * @param pvParameters
+	 */
 	virtual void impl(void *pvParameters) {};
 };
 

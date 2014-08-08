@@ -15,15 +15,38 @@
 
 #include "tasks.hpp"
 
+/**
+ * Application main file.
+ */
 class Application {
 public:
 	Application() {}
 
+	/**
+	 * Initialize an application.
+	 */
 	void init();
+
+	/**
+	 * Start an application main loop.
+	 */
 	void start();
 
+	/**
+	 * Attach and run task written in plain C.
+	 *
+	 * @param taskCode
+	 * @param title
+	 */
 	void attachTask(pdTASK_CODE taskCode, char * title);
-	void attach(Task *task);
+
+	/**
+	 * Attach and run task written in C++, inherited from Task.
+	 *
+	 * @param task
+	 * @param title
+	 */
+	void attach(Task *task, char *title);
 };
 
 
